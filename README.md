@@ -73,7 +73,7 @@ return x if self.training else torch.cat(z, 1)
 
 最后如图所示：
 
-<img src="https://github.com/Dengshima/yolov5-tensorrt/blob/master/imgs/yolopy.png" alt=""/>
+<img src="https://github.com/gentlemanarch/yolov5-tensorrt/blob/master/imgs/yolopy.png" alt=""/>
 
 #### models/export.py
 
@@ -431,4 +431,4 @@ yaml中注释足够详细，简单说下用法，以需要检测person为例：
 
 检测结果如下：
 
-<img src="https://github.com/Dengshima/yolov5-tensorrt/blob/master/imgs/result.png" alt=""/>
+<img src="https://github.com/gentlemanarch/yolov5-tensorrt/blob/master/imgs/result.png" alt=""/>

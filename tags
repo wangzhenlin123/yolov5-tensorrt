@@ -1,0 +1,1025 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/dsm/github/yolov5-tensorrt/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210905.0/
+ASSERT	include/common.h	/^#define ASSERT(/;"	d
+Args	include/argsParser.h	/^struct Args$/;"	s	namespace:TensorRTCommon
+BATCH_STREAM_H	include/BatchStream.h	/^#define BATCH_STREAM_H$/;"	d
+BBox	include/common.h	/^struct BBox$/;"	s	namespace:TensorRTCommon
+BatchStream	include/BatchStream.h	/^    BatchStream($/;"	f	class:BatchStream
+BatchStream	include/BatchStream.h	/^    BatchStream(int batchSize, int maxBatches, std::string prefix, std::vector<std::string> dire/;"	f	class:BatchStream
+BatchStream	include/BatchStream.h	/^class BatchStream : public IBatchStream$/;"	c
+BoundingBox	include/TRTinfer.hpp	/^struct BoundingBox$/;"	s	namespace:trtinfer
+BufferManager	include/buffers.h	/^    BufferManager(std::shared_ptr<nvinfer1::ICudaEngine> engine, const int batchSize = 0,$/;"	f	class:TensorRTCommon::BufferManager
+BufferManager	include/buffers.h	/^class BufferManager$/;"	c	namespace:TensorRTCommon
+ByteMemory	include/common.h	/^using ByteMemory = TypedHostMemory<uint8_t, DataType::kINT8>;$/;"	t	namespace:TensorRTCommon	typeref:typename:TypedHostMemory<uint8_t,DataType::kINT8>
+CHECK	include/common.h	/^#define CHECK(/;"	d
+CHECK_RETURN	include/common.h	/^#define CHECK_RETURN(/;"	d
+CHECK_RETURN_W_MSG	include/common.h	/^#define CHECK_RETURN_W_MSG(/;"	d
+CMAKE_BUILD_TYPE	CMakeLists.txt	/^set(CMAKE_BUILD_TYPE Debug)$/;"	v
+CMAKE_CXX_FLAGS	CMakeLists.txt	/^set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -Wall -g -ggdb -O0 -Wfatal-errors -D_MWAITXIN/;"	v
+CMAKE_CXX_STANDARD	CMakeLists.txt	/^set(CMAKE_CXX_STANDARD 11)$/;"	v
+COMMON_INCLUDE	CMakeLists.txt	/^set(COMMON_INCLUDE include)$/;"	v
+CaffeSampleParams	include/argsParser.h	/^struct CaffeSampleParams : public SampleParams$/;"	s	namespace:TensorRTCommon
+CpuTimer	include/common.h	/^class CpuTimer : public TimerBase$/;"	c	namespace:TensorRTCommon
+DagcppBox	include/TRTinfer.hpp	/^struct DagcppBox$/;"	s	namespace:trtinfer
+DeviceAllocator	include/buffers.h	/^class DeviceAllocator$/;"	c	namespace:TensorRTCommon
+DeviceBuffer	include/buffers.h	/^using DeviceBuffer = GenericBuffer<DeviceAllocator, DeviceFree>;$/;"	t	namespace:TensorRTCommon	typeref:typename:GenericBuffer<DeviceAllocator,DeviceFree>
+DeviceFree	include/buffers.h	/^class DeviceFree$/;"	c	namespace:TensorRTCommon
+ENABLE_DLA_API	include/common.h	/^#define ENABLE_DLA_API /;"	d
+ENTROPY_CALIBRATOR_H	include/EntropyCalibrator.h	/^#define ENTROPY_CALIBRATOR_H$/;"	d
+EntropyCalibratorImpl	include/EntropyCalibrator.h	/^    EntropyCalibratorImpl($/;"	f	class:EntropyCalibratorImpl
+EntropyCalibratorImpl	include/EntropyCalibrator.h	/^class EntropyCalibratorImpl$/;"	c
+FN_NAME	include/common.h	/^#define FN_NAME /;"	d
+FP_FAST_FMAH	include/half.h	/^#define FP_FAST_FMAH /;"	d
+FP_ILOGB0	include/half.h	/^#define FP_ILOGB0 /;"	d
+FP_ILOGBNAN	include/half.h	/^#define FP_ILOGBNAN /;"	d
+FP_INFINITE	include/half.h	/^#define FP_INFINITE /;"	d
+FP_NAN	include/half.h	/^#define FP_NAN /;"	d
+FP_NORMAL	include/half.h	/^#define FP_NORMAL /;"	d
+FP_SUBNORMAL	include/half.h	/^#define FP_SUBNORMAL /;"	d
+FP_ZERO	include/half.h	/^#define FP_ZERO /;"	d
+FloatMemory	include/common.h	/^using FloatMemory = TypedHostMemory<float, DataType::kFLOAT>;$/;"	t	namespace:TensorRTCommon	typeref:typename:TypedHostMemory<float,DataType::kFLOAT>
+GenericBuffer	include/buffers.h	/^    GenericBuffer(GenericBuffer&& buf)$/;"	f	class:TensorRTCommon::GenericBuffer
+GenericBuffer	include/buffers.h	/^    GenericBuffer(nvinfer1::DataType type = nvinfer1::DataType::kFLOAT)$/;"	f	class:TensorRTCommon::GenericBuffer
+GenericBuffer	include/buffers.h	/^    GenericBuffer(size_t size, nvinfer1::DataType type)$/;"	f	class:TensorRTCommon::GenericBuffer
+GenericBuffer	include/buffers.h	/^class GenericBuffer$/;"	c	namespace:TensorRTCommon
+GpuTimer	include/common.h	/^    GpuTimer(cudaStream_t stream)$/;"	f	class:TensorRTCommon::GpuTimer
+GpuTimer	include/common.h	/^class GpuTimer : public TimerBase$/;"	c	namespace:TensorRTCommon
+HALF_CONSTEXPR	include/half.h	/^#define HALF_CONSTEXPR /;"	d
+HALF_CONSTEXPR	include/half.h	/^#define HALF_CONSTEXPR$/;"	d
+HALF_CONSTEXPR_CONST	include/half.h	/^#define HALF_CONSTEXPR_CONST /;"	d
+HALF_ENABLE_CPP11_CMATH	include/half.h	/^#define HALF_ENABLE_CPP11_CMATH /;"	d
+HALF_ENABLE_CPP11_CONSTEXPR	include/half.h	/^#define HALF_ENABLE_CPP11_CONSTEXPR /;"	d
+HALF_ENABLE_CPP11_CSTDINT	include/half.h	/^#define HALF_ENABLE_CPP11_CSTDINT /;"	d
+HALF_ENABLE_CPP11_HASH	include/half.h	/^#define HALF_ENABLE_CPP11_HASH /;"	d
+HALF_ENABLE_CPP11_LONG_LONG	include/half.h	/^#define HALF_ENABLE_CPP11_LONG_LONG /;"	d
+HALF_ENABLE_CPP11_NOEXCEPT	include/half.h	/^#define HALF_ENABLE_CPP11_NOEXCEPT /;"	d
+HALF_ENABLE_CPP11_STATIC_ASSERT	include/half.h	/^#define HALF_ENABLE_CPP11_STATIC_ASSERT /;"	d
+HALF_ENABLE_CPP11_TYPE_TRAITS	include/half.h	/^#define HALF_ENABLE_CPP11_TYPE_TRAITS /;"	d
+HALF_ENABLE_CPP11_USER_LITERALS	include/half.h	/^#define HALF_ENABLE_CPP11_USER_LITERALS /;"	d
+HALF_GNUC_VERSION	include/half.h	/^#define HALF_GNUC_VERSION /;"	d
+HALF_HALF_HPP	include/half.h	/^#define HALF_HALF_HPP$/;"	d
+HALF_NOEXCEPT	include/half.h	/^#define HALF_NOEXCEPT /;"	d
+HALF_NOEXCEPT	include/half.h	/^#define HALF_NOEXCEPT$/;"	d
+HALF_NOTHROW	include/half.h	/^#define HALF_NOTHROW /;"	d
+HALF_POP_WARNINGS	include/half.h	/^#define HALF_POP_WARNINGS /;"	d
+HALF_ROUND_STYLE	include/half.h	/^#define HALF_ROUND_STYLE /;"	d
+HALF_ROUND_TIES_TO_EVEN	include/half.h	/^#define HALF_ROUND_TIES_TO_EVEN /;"	d
+HUGE_VALH	include/half.h	/^#define HUGE_VALH /;"	d
+HalfMemory	include/common.h	/^using HalfMemory = TypedHostMemory<uint16_t, DataType::kHALF>;$/;"	t	namespace:TensorRTCommon	typeref:typename:TypedHostMemory<uint16_t,DataType::kHALF>
+HostAllocator	include/buffers.h	/^class HostAllocator$/;"	c	namespace:TensorRTCommon
+HostBuffer	include/buffers.h	/^using HostBuffer = GenericBuffer<HostAllocator, HostFree>;$/;"	t	namespace:TensorRTCommon	typeref:typename:GenericBuffer<HostAllocator,HostFree>
+HostFree	include/buffers.h	/^class HostFree$/;"	c	namespace:TensorRTCommon
+HostMemory	include/common.h	/^    HostMemory(std::size_t size, DataType type)$/;"	f	class:TensorRTCommon::HostMemory
+HostMemory	include/common.h	/^class HostMemory : public IHostMemory$/;"	c	namespace:TensorRTCommon
+IBatchStream	include/BatchStream.h	/^class IBatchStream$/;"	c
+InferDeleter	include/common.h	/^struct InferDeleter$/;"	s	namespace:TensorRTCommon
+Int8EntropyCalibrator2	include/EntropyCalibrator.h	/^    Int8EntropyCalibrator2($/;"	f	class:Int8EntropyCalibrator2
+Int8EntropyCalibrator2	include/EntropyCalibrator.h	/^class Int8EntropyCalibrator2 : public IInt8EntropyCalibrator2$/;"	c
+KP_EXE_NAME	CMakeLists.txt	/^set(KP_EXE_NAME keypoint_trt)$/;"	v
+LOGGER_H	include/logger.h	/^#define LOGGER_H$/;"	d
+LOG_ERROR	include/logging.h	/^inline LogStreamConsumer LOG_ERROR(const Logger& logger)$/;"	f	namespace:Logging::__anon5bd1f3550111	typeref:typename:LogStreamConsumer
+LOG_FATAL	include/logging.h	/^inline LogStreamConsumer LOG_FATAL(const Logger& logger)$/;"	f	namespace:Logging::__anon5bd1f3550111	typeref:typename:LogStreamConsumer
+LOG_INFO	include/logging.h	/^inline LogStreamConsumer LOG_INFO(const Logger& logger)$/;"	f	namespace:Logging::__anon5bd1f3550111	typeref:typename:LogStreamConsumer
+LOG_VERBOSE	include/logging.h	/^inline LogStreamConsumer LOG_VERBOSE(const Logger& logger)$/;"	f	namespace:Logging::__anon5bd1f3550111	typeref:typename:LogStreamConsumer
+LOG_WARN	include/logging.h	/^inline LogStreamConsumer LOG_WARN(const Logger& logger)$/;"	f	namespace:Logging::__anon5bd1f3550111	typeref:typename:LogStreamConsumer
+LogStreamConsumer	include/logging.h	/^    LogStreamConsumer(LogStreamConsumer&& other)$/;"	f	class:Logging::LogStreamConsumer
+LogStreamConsumer	include/logging.h	/^    LogStreamConsumer(Severity reportableSeverity, Severity severity)$/;"	f	class:Logging::LogStreamConsumer
+LogStreamConsumer	include/logging.h	/^class LogStreamConsumer : protected LogStreamConsumerBase, public std::ostream$/;"	c	namespace:Logging
+LogStreamConsumerBase	include/logging.h	/^    LogStreamConsumerBase(std::ostream& stream, const std::string& prefix, bool shouldLog)$/;"	f	class:Logging::LogStreamConsumerBase
+LogStreamConsumerBase	include/logging.h	/^class LogStreamConsumerBase$/;"	c	namespace:Logging
+LogStreamConsumerBuffer	include/logging.h	/^    LogStreamConsumerBuffer(LogStreamConsumerBuffer&& other)$/;"	f	class:Logging::LogStreamConsumerBuffer
+LogStreamConsumerBuffer	include/logging.h	/^    LogStreamConsumerBuffer(std::ostream& stream, const std::string& prefix, bool shouldLog)$/;"	f	class:Logging::LogStreamConsumerBuffer
+LogStreamConsumerBuffer	include/logging.h	/^class LogStreamConsumerBuffer : public std::stringbuf$/;"	c	namespace:Logging
+Logger	include/logging.h	/^    Logger(Severity severity = Severity::kWARNING)$/;"	f	class:Logging::Logger
+Logger	include/logging.h	/^class Logger : public nvinfer1::ILogger$/;"	c	namespace:Logging
+Logging	include/logger.h	/^namespace Logging$/;"	n
+Logging	include/logging.h	/^namespace Logging$/;"	n
+Logging	src/logger.cpp	/^namespace Logging$/;"	n	file:
+MNISTBatchStream	include/BatchStream.h	/^    MNISTBatchStream(int batchSize, int maxBatches, const std::string& dataFile, const std::stri/;"	f	class:MNISTBatchStream
+MNISTBatchStream	include/BatchStream.h	/^class MNISTBatchStream : public IBatchStream$/;"	c
+ManagedBuffer	include/buffers.h	/^class ManagedBuffer$/;"	c	namespace:TensorRTCommon
+NOMINMAX	include/common.h	/^#define NOMINMAX$/;"	d
+OBJ_GUARD	include/common.h	/^#define OBJ_GUARD(/;"	d
+OnnxSampleParams	include/argsParser.h	/^struct OnnxSampleParams : public SampleParams$/;"	s	namespace:TensorRTCommon
+PPM	include/common.h	/^struct PPM$/;"	s	namespace:TensorRTCommon
+PreciseCpuTimer	include/common.h	/^using PreciseCpuTimer = CpuTimer<std::chrono::high_resolution_clock>;$/;"	t	namespace:TensorRTCommon	typeref:typename:CpuTimer<std::chrono::high_resolution_clock>
+Record	include/common.h	/^    struct Record$/;"	s	struct:SimpleProfiler
+SampleParams	include/argsParser.h	/^struct SampleParams$/;"	s	namespace:TensorRTCommon
+Severity	include/logging.h	/^using Severity = nvinfer1::ILogger::Severity;$/;"	t	namespace:Logging	typeref:typename:nvinfer1::ILogger::Severity
+SimpleProfiler	include/common.h	/^    SimpleProfiler(const char* name, const std::vector<SimpleProfiler>& srcProfilers = std::vect/;"	f	struct:SimpleProfiler
+SimpleProfiler	include/common.h	/^struct SimpleProfiler : public nvinfer1::IProfiler$/;"	s
+SpeedInfo	include/TRTinfer.hpp	/^    SpeedInfo() :$/;"	f	struct:trtinfer::SpeedInfo
+SpeedInfo	include/TRTinfer.hpp	/^struct SpeedInfo$/;"	s	namespace:trtinfer
+TENSORRT_ARGS_PARSER_H	include/argsParser.h	/^#define TENSORRT_ARGS_PARSER_H$/;"	d
+TENSORRT_BUFFERS_H	include/buffers.h	/^#define TENSORRT_BUFFERS_H$/;"	d
+TENSORRT_COMMON_H	include/common.h	/^#define TENSORRT_COMMON_H$/;"	d
+TENSORRT_LIBRARY	CMakeLists.txt	/^set(TENSORRT_LIBRARY ${TENSORRT_LIBRARY_INFER} ${TENSORRT_LIBRARY_ONNXPARSER} ${TENSORRT_LIBRARY/;"	v
+TENSORRT_LOGGING_H	include/logging.h	/^#define TENSORRT_LOGGING_H$/;"	d
+TENSORRT_ROOT	CMakeLists.txt	/^set(TENSORRT_ROOT \/data\/data1\/shima\/TensorRT-7.2.3.4)$/;"	v
+TRTInfer	include/TRTinfer.hpp	/^    TRTInfer(initParams params)$/;"	f	class:trtinfer::TRTInfer
+TRTInfer	include/TRTinfer.hpp	/^class TRTInfer$/;"	c	namespace:trtinfer
+TRTParams	include/TRTinfer.hpp	/^struct TRTParams$/;"	s	namespace:trtinfer
+TensorRTCommon	include/argsParser.h	/^namespace TensorRTCommon$/;"	n
+TensorRTCommon	include/buffers.h	/^namespace TensorRTCommon$/;"	n
+TensorRTCommon	include/common.h	/^namespace TensorRTCommon$/;"	n
+TensorRTUniquePtr	include/TRTinfer.hpp	/^using TensorRTUniquePtr = std::unique_ptr<T, TensorRTCommon::InferDeleter>;$/;"	t	namespace:trtinfer	typeref:typename:std::unique_ptr<T,TensorRTCommon::InferDeleter>
+TensorRTUniquePtr	include/Yolov5.hpp	/^using TensorRTUniquePtr = std::unique_ptr<T, TensorRTCommon::InferDeleter>;$/;"	t	namespace:Yolov5	typeref:typename:std::unique_ptr<T,TensorRTCommon::InferDeleter>
+TestAtom	include/logging.h	/^        TestAtom(bool started, const std::string& name, const std::string& cmdline)$/;"	f	class:Logging::Logger::TestAtom
+TestAtom	include/logging.h	/^    class TestAtom$/;"	c	class:Logging::Logger
+TestResult	include/logging.h	/^    enum class TestResult$/;"	g	class:Logging::Logger
+TimerBase	include/common.h	/^class TimerBase$/;"	c	namespace:TensorRTCommon
+Torch -> onnx	README.md	/^### Torch -> onnx$/;"	S
+TypedHostMemory	include/common.h	/^    TypedHostMemory(std::size_t size)$/;"	f	class:TensorRTCommon::TypedHostMemory
+TypedHostMemory	include/common.h	/^class TypedHostMemory : public HostMemory$/;"	c	namespace:TensorRTCommon
+UffSampleParams	include/argsParser.h	/^struct UffSampleParams : public SampleParams$/;"	s	namespace:TensorRTCommon
+YOLO_EXE_NAME	CMakeLists.txt	/^set(YOLO_EXE_NAME yolov5_trt)$/;"	v
+YOLO_EXE_SOURCES	CMakeLists.txt	/^ set(YOLO_EXE_SOURCES$/;"	v
+Yolov5	include/Yolov5.hpp	/^    Yolov5(const trtinfer::TRTParams& params):TRTInfer(params){};$/;"	f	class:Yolov5::Yolov5
+Yolov5	include/Yolov5.hpp	/^class Yolov5 : public trtinfer::TRTInfer$/;"	c	namespace:Yolov5
+Yolov5	include/Yolov5.hpp	/^namespace Yolov5{$/;"	n
+Yolov5	src/Yolov5.cpp	/^namespace Yolov5{$/;"	n	file:
+__anon3a20943c0102	include/BatchStream.h	/^            rawData.begin(), rawData.end(), mData.begin(), [](uint8_t val) { return static_cast</;"	f	function:MNISTBatchStream::readDataFile	file:
+__anon3a20943c0202	include/BatchStream.h	/^            rawLabels.begin(), rawLabels.end(), mLabels.begin(), [](uint8_t val) { return static/;"	f	function:MNISTBatchStream::readLabelsFile	file:
+__anon5bd1f3550111	include/logging.h	/^{$/;"	n	namespace:Logging
+__anon84d717570102	include/common.h	/^    auto deleter = [](T* t) { t->destroy(); };$/;"	f	function:makeObjGuard	file:
+__anon84d717570202	include/common.h	/^            [](const std::string& a, const std::string& b) { return a + "\\n\\t" + b; });$/;"	f	function:locateFile	file:
+__anon84d717570302	include/common.h	/^    std::sort(indices.begin(), indices.end(), [&begin](size_t i, size_t j) { return std::abs(beg/;"	f	function:TensorRTCommon::argMagnitudeSort	file:
+__anon84d717570402	include/common.h	/^    auto round = [](float x) -> int { return int(std::floor(x + 0.5f)); };$/;"	f	function:TensorRTCommon::writePPMFileWithBBox	typeref:typename:int	file:
+__anon84d717570502	include/common.h	/^    auto round = [](float x) -> int { return int(std::floor(x + 0.5f)); };$/;"	f	function:TensorRTCommon::writePPMFileWithBBox	typeref:typename:int	file:
+abs	include/half.h	/^inline expr abs(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+abs	include/half.h	/^inline half abs(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:half
+acos	include/half.h	/^    static expr acos(float arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:expr
+acos	include/half.h	/^inline expr acos(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+acos	include/half.h	/^inline expr acos(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+acosh	include/half.h	/^    static expr acosh(float arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:expr
+acosh	include/half.h	/^inline expr acosh(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+acosh	include/half.h	/^inline expr acosh(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+actual	include/cmdline.h	/^    T actual;$/;"	m	class:cmdline::parser::option_with_value	typeref:typename:T
+add	include/cmdline.h	/^  void add(const T &v){ alt.push_back(v); }$/;"	f	struct:cmdline::oneof_reader	typeref:typename:void
+add	include/cmdline.h	/^  void add(const std::string &name,$/;"	f	class:cmdline::parser	typeref:typename:void
+allocFn	include/buffers.h	/^    AllocFunc allocFn;$/;"	m	class:TensorRTCommon::GenericBuffer	typeref:typename:AllocFunc
+alt	include/cmdline.h	/^  std::vector<T> alt;$/;"	m	struct:cmdline::oneof_reader	typeref:typename:std::vector<T>
+argMagnitudeSort	include/common.h	/^std::vector<size_t> argMagnitudeSort(Iter begin, Iter end)$/;"	f	namespace:TensorRTCommon	typeref:typename:std::vector<size_t>
+argument_type	include/half.h	/^    typedef half_float::half argument_type;$/;"	t	struct:std::hash	typeref:typename:half_float::half
+asin	include/half.h	/^    static expr asin(float arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:expr
+asin	include/half.h	/^inline expr asin(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+asin	include/half.h	/^inline expr asin(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+asinh	include/half.h	/^    static expr asinh(float arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:expr
+asinh	include/half.h	/^inline expr asinh(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+asinh	include/half.h	/^inline expr asinh(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+atan	include/half.h	/^    static expr atan(float arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:expr
+atan	include/half.h	/^inline expr atan(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+atan	include/half.h	/^inline expr atan(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+atan2	include/half.h	/^    static expr atan2(float x, float y)$/;"	f	struct:half_float::detail::functions	typeref:typename:expr
+atan2	include/half.h	/^inline expr atan2(expr x, expr y)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+atan2	include/half.h	/^inline expr atan2(expr x, half y)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+atan2	include/half.h	/^inline expr atan2(half x, expr y)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+atan2	include/half.h	/^inline expr atan2(half x, half y)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+atanh	include/half.h	/^    static expr atanh(float arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:expr
+atanh	include/half.h	/^inline expr atanh(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+atanh	include/half.h	/^inline expr atanh(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+batch	include/argsParser.h	/^    int32_t batch{1};$/;"	m	struct:TensorRTCommon::Args	typeref:typename:int32_t
+batchDetected	include/TRTinfer.hpp	/^    std::vector<std::vector<DagcppBox> > batchDetected;$/;"	m	class:trtinfer::TRTInfer	typeref:typename:std::vector<std::vector<DagcppBox>>
+batchSize	include/TRTinfer.hpp	/^    int batchSize = 1;$/;"	m	struct:trtinfer::TRTParams	typeref:typename:int
+batchSize	include/argsParser.h	/^    int32_t batchSize{1};              \/\/!< Number of inputs in a batch$/;"	m	struct:TensorRTCommon::SampleParams	typeref:typename:int32_t
+binary	include/half.h	/^HALF_CONSTEXPR_CONST binary_t binary = binary_t();$/;"	v	namespace:half_float::detail	typeref:typename:HALF_CONSTEXPR_CONST binary_t
+binary_specialized	include/half.h	/^struct binary_specialized$/;"	s	namespace:half_float::detail
+binary_specialized	include/half.h	/^struct binary_specialized<half, half>$/;"	s	namespace:half_float::detail
+binary_t	include/half.h	/^struct binary_t$/;"	s	namespace:half_float::detail
+bits	include/half.h	/^struct bits$/;"	s	namespace:half_float::detail
+bits	include/half.h	/^struct bits<const T> : bits<T>$/;"	s	namespace:half_float::detail
+bits	include/half.h	/^struct bits<const volatile T> : bits<T>$/;"	s	namespace:half_float::detail
+bits	include/half.h	/^struct bits<double> : conditional<std::numeric_limits<unsigned long>::digits >= 64, unsigned lon/;"	s	namespace:half_float::detail
+bits	include/half.h	/^struct bits<double>$/;"	s	namespace:half_float::detail
+bits	include/half.h	/^struct bits<float> : conditional<std::numeric_limits<unsigned int>::digits >= 32, unsigned int, /;"	s	namespace:half_float::detail
+bits	include/half.h	/^struct bits<float>$/;"	s	namespace:half_float::detail
+bits	include/half.h	/^struct bits<volatile T> : bits<T>$/;"	s	namespace:half_float::detail
+bool_type	include/half.h	/^struct bool_type : std::integral_constant<bool, B>$/;"	s	namespace:half_float::detail
+buffer	include/common.h	/^    std::vector<uint8_t> buffer;$/;"	m	struct:TensorRTCommon::vPPM	typeref:typename:std::vector<uint8_t>
+buffer	include/common.h	/^    uint8_t buffer[C * H * W];$/;"	m	struct:TensorRTCommon::PPM	typeref:typename:uint8_t[]
+build	include/TRTinfer.hpp	/^    bool build()$/;"	f	class:trtinfer::TRTInfer	typeref:typename:bool
+builtin_isinf	include/half.h	/^bool builtin_isinf(T arg)$/;"	f	namespace:half_float::detail	typeref:typename:bool
+builtin_isnan	include/half.h	/^bool builtin_isnan(T arg)$/;"	f	namespace:half_float::detail	typeref:typename:bool
+builtin_signbit	include/half.h	/^bool builtin_signbit(T arg)$/;"	f	namespace:half_float::detail	typeref:typename:bool
+calibrationBatches	include/TRTinfer.hpp	/^    std::string calibrationBatches; \/\/!< The path to calibration batches$/;"	m	struct:trtinfer::TRTParams	typeref:typename:std::string
+cast	include/cmdline.h	/^  static Target cast(const Source &arg){$/;"	f	class:cmdline::detail::lexical_cast_t	typeref:typename:Target
+cast	include/cmdline.h	/^  static Target cast(const std::string &arg){$/;"	f	class:cmdline::detail::lexical_cast_t	typeref:typename:Target
+cast	include/cmdline.h	/^  static std::string cast(const Source &arg){$/;"	f	class:cmdline::detail::lexical_cast_t	typeref:typename:std::string
+cast	include/half.h	/^    static T cast(expr arg)$/;"	f	struct:half_float::detail::half_caster	typeref:typename:T
+cast	include/half.h	/^    static T cast(half arg)$/;"	f	struct:half_float::detail::half_caster	typeref:typename:T
+cast	include/half.h	/^    static half cast(U arg)$/;"	f	struct:half_float::detail::half_caster	typeref:typename:half
+cast	include/half.h	/^    static half cast(half arg)$/;"	f	struct:half_float::detail::half_caster	typeref:typename:half
+cast_impl	include/half.h	/^    static T cast_impl(float arg, true_type)$/;"	f	struct:half_float::detail::half_caster	typeref:typename:T
+cast_impl	include/half.h	/^    static T cast_impl(half arg, false_type)$/;"	f	struct:half_float::detail::half_caster	typeref:typename:T
+cast_impl	include/half.h	/^    static T cast_impl(half arg, true_type)$/;"	f	struct:half_float::detail::half_caster	typeref:typename:T
+cast_impl	include/half.h	/^    static half cast_impl(U arg, false_type)$/;"	f	struct:half_float::detail::half_caster	typeref:typename:half
+cast_impl	include/half.h	/^    static half cast_impl(U arg, true_type)$/;"	f	struct:half_float::detail::half_caster	typeref:typename:half
+cbrt	include/half.h	/^    static expr cbrt(float arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:expr
+cbrt	include/half.h	/^inline expr cbrt(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+cbrt	include/half.h	/^inline expr cbrt(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+ceil	include/half.h	/^    static half ceil(half arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:half
+ceil	include/half.h	/^inline half ceil(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:half
+ceil	include/half.h	/^inline half ceil(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:half
+check	include/cmdline.h	/^  void check(int argc, bool ok){$/;"	f	class:cmdline::parser	typeref:typename:void
+cl	include/TRTinfer.hpp	/^    int cl;$/;"	m	struct:trtinfer::DagcppBox	typeref:typename:int
+classify	include/common.h	/^std::vector<std::string> classify($/;"	f	namespace:TensorRTCommon	typeref:typename:std::vector<std::string>
+clock_type	include/common.h	/^    using clock_type = Clock;$/;"	t	class:TensorRTCommon::CpuTimer	typeref:typename:Clock
+cls	include/TRTinfer.hpp	/^    int cls;$/;"	m	struct:trtinfer::BoundingBox	typeref:typename:int
+cmdline	include/cmdline.h	/^namespace cmdline{$/;"	n
+cmdline_error	include/cmdline.h	/^  cmdline_error(const std::string &msg): msg(msg){}$/;"	f	class:cmdline::cmdline_error
+cmdline_error	include/cmdline.h	/^class cmdline_error : public std::exception {$/;"	c	namespace:cmdline
+cocoClassNamesFileName	include/TRTinfer.hpp	/^    std::string cocoClassNamesFileName;$/;"	m	struct:trtinfer::TRTParams	typeref:typename:std::string
+conditional	include/half.h	/^struct conditional : std::conditional<B, T, F>$/;"	s	namespace:half_float::detail
+constructNetwork	src/Yolov5.cpp	/^bool Yolov5::constructNetwork(TensorRTUniquePtr<nvinfer1::IBuilder>& builder,$/;"	f	class:Yolov5::Yolov5	typeref:typename:bool
+copyInputToDevice	include/buffers.h	/^    void copyInputToDevice()$/;"	f	class:TensorRTCommon::BufferManager	typeref:typename:void
+copyInputToDeviceAsync	include/buffers.h	/^    void copyInputToDeviceAsync(const cudaStream_t& stream = 0)$/;"	f	class:TensorRTCommon::BufferManager	typeref:typename:void
+copyOutputToHost	include/buffers.h	/^    void copyOutputToHost()$/;"	f	class:TensorRTCommon::BufferManager	typeref:typename:void
+copyOutputToHostAsync	include/buffers.h	/^    void copyOutputToHostAsync(const cudaStream_t& stream = 0)$/;"	f	class:TensorRTCommon::BufferManager	typeref:typename:void
+copysign	include/half.h	/^    static half copysign(half x, half y)$/;"	f	struct:half_float::detail::functions	typeref:typename:half
+copysign	include/half.h	/^inline half copysign(expr x, expr y)$/;"	f	namespace:half_float::detail	typeref:typename:half
+copysign	include/half.h	/^inline half copysign(expr x, half y)$/;"	f	namespace:half_float::detail	typeref:typename:half
+copysign	include/half.h	/^inline half copysign(half x, expr y)$/;"	f	namespace:half_float::detail	typeref:typename:half
+copysign	include/half.h	/^inline half copysign(half x, half y)$/;"	f	namespace:half_float::detail	typeref:typename:half
+cos	include/half.h	/^    static expr cos(float arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:expr
+cos	include/half.h	/^inline expr cos(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+cos	include/half.h	/^inline expr cos(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+cosh	include/half.h	/^    static expr cosh(float arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:expr
+cosh	include/half.h	/^inline expr cosh(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+cosh	include/half.h	/^inline expr cosh(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+count	include/common.h	/^        int count{0};$/;"	m	struct:SimpleProfiler::Record	typeref:typename:int
+data	include/buffers.h	/^    const void* data() const$/;"	f	class:TensorRTCommon::GenericBuffer	typeref:typename:const void *
+data	include/buffers.h	/^    void* data()$/;"	f	class:TensorRTCommon::GenericBuffer	typeref:typename:void *
+data	include/common.h	/^    void* data() const noexcept override$/;"	f	class:TensorRTCommon::HostMemory	typeref:typename:void *
+dataDirs	include/TRTinfer.hpp	/^    std::vector<std::string> dataDirs;$/;"	m	struct:trtinfer::TRTParams	typeref:typename:std::vector<std::string>
+dataDirs	include/argsParser.h	/^    std::vector<std::string> dataDirs; \/\/!< Directory paths where sample data files are stored$/;"	m	struct:TensorRTCommon::SampleParams	typeref:typename:std::vector<std::string>
+dataDirs	include/argsParser.h	/^    std::vector<std::string> dataDirs;$/;"	m	struct:TensorRTCommon::Args	typeref:typename:std::vector<std::string>
+data_	include/half.h	/^    detail::uint16 data_;$/;"	m	class:half_float::half	typeref:typename:detail::uint16
+def	include/cmdline.h	/^    T def;$/;"	m	class:cmdline::parser::option_with_value	typeref:typename:T
+default_reader	include/cmdline.h	/^struct default_reader{$/;"	s	namespace:cmdline
+default_value	include/cmdline.h	/^std::string default_value(T def)$/;"	f	namespace:cmdline::detail	typeref:typename:std::string
+defineTest	include/logging.h	/^    static TestAtom defineTest(const std::string& name, const std::string& cmdline)$/;"	f	class:Logging::Logger	typeref:typename:TestAtom
+defineTest	include/logging.h	/^    static TestAtom defineTest(const std::string& name, int argc, char const* const* argv)$/;"	f	class:Logging::Logger	typeref:typename:TestAtom
+demangle	include/cmdline.h	/^static inline std::string demangle(const std::string &name)$/;"	f	namespace:cmdline::detail	typeref:typename:std::string
+denorm_min	include/half.h	/^    static HALF_CONSTEXPR half_float::half denorm_min() HALF_NOTHROW$/;"	f	class:std::numeric_limits	typeref:typename:HALF_CONSTEXPR half_float::half
+desc	include/cmdline.h	/^    std::string desc;$/;"	m	class:cmdline::parser::option_with_value	typeref:typename:std::string
+desc	include/cmdline.h	/^    std::string desc;$/;"	m	class:cmdline::parser::option_without_value	typeref:typename:std::string
+description	include/cmdline.h	/^    const std::string &description() const {$/;"	f	class:cmdline::parser::option_with_value	typeref:typename:const std::string &
+description	include/cmdline.h	/^    const std::string &description() const {$/;"	f	class:cmdline::parser::option_without_value	typeref:typename:const std::string &
+destroy	include/common.h	/^    void destroy() noexcept override$/;"	f	class:TensorRTCommon::TypedHostMemory	typeref:typename:void
+detail	include/cmdline.h	/^namespace detail{$/;"	n	namespace:cmdline
+detail	include/half.h	/^namespace detail$/;"	n	namespace:half_float
+deviceBuffer	include/buffers.h	/^    DeviceBuffer deviceBuffer;$/;"	m	class:TensorRTCommon::ManagedBuffer	typeref:typename:DeviceBuffer
+digits	include/half.h	/^    static HALF_CONSTEXPR_CONST int digits = 11;$/;"	m	class:std::numeric_limits	typeref:typename:HALF_CONSTEXPR_CONST int
+digits10	include/half.h	/^    static HALF_CONSTEXPR_CONST int digits10 = 3;$/;"	m	class:std::numeric_limits	typeref:typename:HALF_CONSTEXPR_CONST int
+divUp	include/common.h	/^inline A divUp(A x, B n)$/;"	f	namespace:TensorRTCommon	typeref:typename:A
+divides	include/half.h	/^    static expr divides(float x, float y)$/;"	f	struct:half_float::detail::functions	typeref:typename:expr
+dlaCore	include/TRTinfer.hpp	/^    int dlaCore = -1;$/;"	m	struct:trtinfer::TRTParams	typeref:typename:int
+dlaCore	include/argsParser.h	/^    int32_t dlaCore{-1};               \/\/!< Specify the DLA core to run network on.$/;"	m	struct:TensorRTCommon::SampleParams	typeref:typename:int32_t
+draw_bboxes	include/TRTinfer.hpp	/^    void draw_bboxes(const std::vector<BoundingBox> &bboxes, cv::Mat &testImg)$/;"	f	class:trtinfer::TRTInfer	typeref:typename:void
+dumpBuffer	include/buffers.h	/^    void dumpBuffer(std::ostream& os, const std::string& tensorName)$/;"	f	class:TensorRTCommon::BufferManager	typeref:typename:void
+elementSize	include/common.h	/^inline unsigned int elementSize(DataType t)$/;"	f	namespace:TensorRTCommon	typeref:typename:unsigned int
+enable	include/half.h	/^struct enable$/;"	s	namespace:half_float::detail
+enable	include/half.h	/^struct enable<T, expr, expr, expr>$/;"	s	namespace:half_float::detail
+enable	include/half.h	/^struct enable<T, expr, expr, half>$/;"	s	namespace:half_float::detail
+enable	include/half.h	/^struct enable<T, expr, expr, void>$/;"	s	namespace:half_float::detail
+enable	include/half.h	/^struct enable<T, expr, half, expr>$/;"	s	namespace:half_float::detail
+enable	include/half.h	/^struct enable<T, expr, half, half>$/;"	s	namespace:half_float::detail
+enable	include/half.h	/^struct enable<T, expr, half, void>$/;"	s	namespace:half_float::detail
+enable	include/half.h	/^struct enable<T, expr, void, void>$/;"	s	namespace:half_float::detail
+enable	include/half.h	/^struct enable<T, half, expr, expr>$/;"	s	namespace:half_float::detail
+enable	include/half.h	/^struct enable<T, half, expr, half>$/;"	s	namespace:half_float::detail
+enable	include/half.h	/^struct enable<T, half, expr, void>$/;"	s	namespace:half_float::detail
+enable	include/half.h	/^struct enable<T, half, half, expr>$/;"	s	namespace:half_float::detail
+enable	include/half.h	/^struct enable<T, half, half, half>$/;"	s	namespace:half_float::detail
+enable	include/half.h	/^struct enable<T, half, half, void>$/;"	s	namespace:half_float::detail
+enable	include/half.h	/^struct enable<T, half, void, void>$/;"	s	namespace:half_float::detail
+enableDLA	include/common.h	/^inline void enableDLA(IBuilder* builder, IBuilderConfig* config, int useDLACore, bool allowGPUFa/;"	f	namespace:TensorRTCommon	typeref:typename:void
+engingFileName	include/TRTinfer.hpp	/^    std::string engingFileName;$/;"	m	struct:trtinfer::TRTParams	typeref:typename:std::string
+epsilon	include/half.h	/^    static HALF_CONSTEXPR half_float::half epsilon() HALF_NOTHROW$/;"	f	class:std::numeric_limits	typeref:typename:HALF_CONSTEXPR half_float::half
+erf	include/half.h	/^    static double erf(double arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:double
+erf	include/half.h	/^    static expr erf(float arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:expr
+erf	include/half.h	/^inline expr erf(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+erf	include/half.h	/^inline expr erf(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+erfc	include/half.h	/^    static expr erfc(float arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:expr
+erfc	include/half.h	/^inline expr erfc(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+erfc	include/half.h	/^inline expr erfc(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+error	include/cmdline.h	/^  std::string error() const{$/;"	f	class:cmdline::parser	typeref:typename:std::string
+error_full	include/cmdline.h	/^  std::string error_full() const{$/;"	f	class:cmdline::parser	typeref:typename:std::string
+errors	include/cmdline.h	/^  std::vector<std::string> errors;$/;"	m	class:cmdline::parser	typeref:typename:std::vector<std::string>
+exist	include/cmdline.h	/^  bool exist(const std::string &name) const {$/;"	f	class:cmdline::parser	typeref:typename:bool
+exp	include/half.h	/^    static expr exp(float arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:expr
+exp	include/half.h	/^inline expr exp(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+exp	include/half.h	/^inline expr exp(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+exp2	include/half.h	/^    static expr exp2(float arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:expr
+exp2	include/half.h	/^inline expr exp2(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+exp2	include/half.h	/^inline expr exp2(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+explicitBatchSize	include/TRTinfer.hpp	/^    int explicitBatchSize = 1;$/;"	m	struct:trtinfer::TRTParams	typeref:typename:int
+expm1	include/half.h	/^    static expr expm1(float arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:expr
+expm1	include/half.h	/^inline expr expm1(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+expm1	include/half.h	/^inline expr expm1(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+expr	include/half.h	/^    explicit HALF_CONSTEXPR expr(float f) HALF_NOEXCEPT : value_(f) {}$/;"	f	struct:half_float::detail::expr	typeref:typename:HALF_CONSTEXPR
+expr	include/half.h	/^struct expr$/;"	s	namespace:half_float::detail
+fabs	include/half.h	/^    static expr fabs(float arg)$/;"	f	struct:half_float::detail::unary_specialized	typeref:typename:expr
+fabs	include/half.h	/^    static half fabs(half arg)$/;"	f	struct:half_float::detail::unary_specialized	typeref:typename:half
+fabs	include/half.h	/^inline expr fabs(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+fabs	include/half.h	/^inline half fabs(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:half
+fdim	include/half.h	/^    static expr fdim(float x, float y)$/;"	f	struct:half_float::detail::functions	typeref:typename:expr
+fdim	include/half.h	/^inline expr fdim(expr x, expr y)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+fdim	include/half.h	/^inline expr fdim(expr x, half y)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+fdim	include/half.h	/^inline expr fdim(half x, expr y)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+fdim	include/half.h	/^inline expr fdim(half x, half y)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+fileExists	include/TRTinfer.hpp	/^    bool fileExists(const std::string& name)$/;"	f	class:trtinfer::TRTInfer	typeref:typename:bool
+fileName	include/common.h	/^    std::string magic, fileName;$/;"	m	struct:TensorRTCommon::PPM	typeref:typename:std::string
+fileName	include/common.h	/^    std::string magic, fileName;$/;"	m	struct:TensorRTCommon::vPPM	typeref:typename:std::string
+float2half	include/half.h	/^uint16 float2half(T value)$/;"	f	namespace:half_float::detail	typeref:typename:uint16
+float2half_impl	include/half.h	/^uint16 float2half_impl(T value, ...)$/;"	f	namespace:half_float::detail	typeref:typename:uint16
+float2half_impl	include/half.h	/^uint16 float2half_impl(double value, true_type)$/;"	f	namespace:half_float::detail	typeref:typename:uint16
+float2half_impl	include/half.h	/^uint16 float2half_impl(float value, true_type)$/;"	f	namespace:half_float::detail	typeref:typename:uint16
+floor	include/half.h	/^    static half floor(half arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:half
+floor	include/half.h	/^inline half floor(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:half
+floor	include/half.h	/^inline half floor(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:half
+fma	include/half.h	/^    static expr fma(float x, float y, float z)$/;"	f	struct:half_float::detail::functions	typeref:typename:expr
+fma	include/half.h	/^inline expr fma(expr x, expr y, expr z)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+fma	include/half.h	/^inline expr fma(expr x, expr y, half z)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+fma	include/half.h	/^inline expr fma(expr x, half y, expr z)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+fma	include/half.h	/^inline expr fma(expr x, half y, half z)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+fma	include/half.h	/^inline expr fma(half x, expr y, expr z)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+fma	include/half.h	/^inline expr fma(half x, expr y, half z)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+fma	include/half.h	/^inline expr fma(half x, half y, expr z)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+fma	include/half.h	/^inline expr fma(half x, half y, half z)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+fmax	include/half.h	/^    static expr fmax(float x, float y)$/;"	f	struct:half_float::detail::binary_specialized	typeref:typename:expr
+fmax	include/half.h	/^    static half fmax(half x, half y)$/;"	f	struct:half_float::detail::binary_specialized	typeref:typename:half
+fmax	include/half.h	/^inline expr fmax(expr x, expr y)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+fmax	include/half.h	/^inline expr fmax(expr x, half y)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+fmax	include/half.h	/^inline expr fmax(half x, expr y)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+fmax	include/half.h	/^inline half fmax(half x, half y)$/;"	f	namespace:half_float::detail	typeref:typename:half
+fmin	include/half.h	/^    static expr fmin(float x, float y)$/;"	f	struct:half_float::detail::binary_specialized	typeref:typename:expr
+fmin	include/half.h	/^    static half fmin(half x, half y)$/;"	f	struct:half_float::detail::binary_specialized	typeref:typename:half
+fmin	include/half.h	/^inline expr fmin(expr x, expr y)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+fmin	include/half.h	/^inline expr fmin(expr x, half y)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+fmin	include/half.h	/^inline expr fmin(half x, expr y)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+fmin	include/half.h	/^inline half fmin(half x, half y)$/;"	f	namespace:half_float::detail	typeref:typename:half
+fmod	include/half.h	/^    static expr fmod(float x, float y)$/;"	f	struct:half_float::detail::functions	typeref:typename:expr
+fmod	include/half.h	/^inline expr fmod(expr x, expr y)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+fmod	include/half.h	/^inline expr fmod(expr x, half y)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+fmod	include/half.h	/^inline expr fmod(half x, expr y)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+fmod	include/half.h	/^inline expr fmod(half x, half y)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+footer	include/cmdline.h	/^  void footer(const std::string &f){$/;"	f	class:cmdline::parser	typeref:typename:void
+fp16	include/TRTinfer.hpp	/^    int fp16 = 0;$/;"	m	struct:trtinfer::TRTParams	typeref:typename:int
+fp16	include/argsParser.h	/^    bool fp16{false};                  \/\/!< Allow running the network in FP16 mode.$/;"	m	struct:TensorRTCommon::SampleParams	typeref:typename:bool
+fpclassify	include/half.h	/^    static int fpclassify(half arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:int
+fpclassify	include/half.h	/^inline int fpclassify(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:int
+fpclassify	include/half.h	/^inline int fpclassify(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:int
+freeFn	include/buffers.h	/^    FreeFunc freeFn;$/;"	m	class:TensorRTCommon::GenericBuffer	typeref:typename:FreeFunc
+frexp	include/half.h	/^    static half frexp(half arg, int* exp)$/;"	f	struct:half_float::detail::functions	typeref:typename:half
+frexp	include/half.h	/^inline half frexp(expr arg, int* exp)$/;"	f	namespace:half_float::detail	typeref:typename:half
+frexp	include/half.h	/^inline half frexp(half arg, int* exp)$/;"	f	namespace:half_float::detail	typeref:typename:half
+ftr	include/cmdline.h	/^  std::string ftr;$/;"	m	class:cmdline::parser	typeref:typename:std::string
+full_description	include/cmdline.h	/^    std::string full_description(const std::string &desc){$/;"	f	class:cmdline::parser::option_with_value	typeref:typename:std::string
+functions	include/half.h	/^struct functions$/;"	s	namespace:half_float::detail
+gLogError	src/logger.cpp	/^LogStreamConsumer gLogError{LOG_ERROR(gLogger)};$/;"	v	namespace:Logging	typeref:typename:LogStreamConsumer
+gLogFatal	src/logger.cpp	/^LogStreamConsumer gLogFatal{LOG_FATAL(gLogger)};$/;"	v	namespace:Logging	typeref:typename:LogStreamConsumer
+gLogInfo	src/logger.cpp	/^LogStreamConsumer gLogInfo{LOG_INFO(gLogger)};$/;"	v	namespace:Logging	typeref:typename:LogStreamConsumer
+gLogVerbose	src/logger.cpp	/^LogStreamConsumer gLogVerbose{LOG_VERBOSE(gLogger)};$/;"	v	namespace:Logging	typeref:typename:LogStreamConsumer
+gLogWarning	src/logger.cpp	/^LogStreamConsumer gLogWarning{LOG_WARN(gLogger)};$/;"	v	namespace:Logging	typeref:typename:LogStreamConsumer
+gLogger	src/logger.cpp	/^Logger gLogger{Logger::Severity::kINFO};$/;"	v	namespace:Logging	typeref:typename:Logger
+gLoggerName	include/TRTinfer.hpp	/^    std::string gLoggerName;$/;"	m	struct:trtinfer::TRTParams	typeref:typename:std::string
+genCmdlineString	include/logging.h	/^    static std::string genCmdlineString(int argc, char const* const* argv)$/;"	f	class:Logging::Logger	typeref:typename:std::string
+get	include/cmdline.h	/^    const T &get() const {$/;"	f	class:cmdline::parser::option_with_value	typeref:typename:const T &
+get	include/cmdline.h	/^  const T &get(const std::string &name) const {$/;"	f	class:cmdline::parser	typeref:typename:const T &
+getBatch	include/BatchStream.h	/^    float* getBatch() override$/;"	f	class:BatchStream	typeref:typename:float *
+getBatch	include/BatchStream.h	/^    float* getBatch() override$/;"	f	class:MNISTBatchStream	typeref:typename:float *
+getBatch	include/EntropyCalibrator.h	/^    bool getBatch(void* bindings[], const char* names[], int nbBindings) override$/;"	f	class:Int8EntropyCalibrator2	typeref:typename:bool
+getBatch	include/EntropyCalibrator.h	/^    bool getBatch(void* bindings[], const char* names[], int nbBindings)$/;"	f	class:EntropyCalibratorImpl	typeref:typename:bool
+getBatchSize	include/BatchStream.h	/^    int getBatchSize() const override$/;"	f	class:BatchStream	typeref:typename:int
+getBatchSize	include/BatchStream.h	/^    int getBatchSize() const override$/;"	f	class:MNISTBatchStream	typeref:typename:int
+getBatchSize	include/EntropyCalibrator.h	/^    int getBatchSize() const override$/;"	f	class:Int8EntropyCalibrator2	typeref:typename:int
+getBatchSize	include/EntropyCalibrator.h	/^    int getBatchSize() const$/;"	f	class:EntropyCalibratorImpl	typeref:typename:int
+getBatchesRead	include/BatchStream.h	/^    int getBatchesRead() const override$/;"	f	class:BatchStream	typeref:typename:int
+getBatchesRead	include/BatchStream.h	/^    int getBatchesRead() const override$/;"	f	class:MNISTBatchStream	typeref:typename:int
+getBuffer	include/buffers.h	/^    void* getBuffer(const bool isHost, const std::string& tensorName) const$/;"	f	class:TensorRTCommon::BufferManager	typeref:typename:void *
+getC	include/common.h	/^inline int getC(const Dims& d)$/;"	f	namespace:TensorRTCommon	typeref:typename:int
+getDeviceBindings	include/buffers.h	/^    const std::vector<void*>& getDeviceBindings() const$/;"	f	class:TensorRTCommon::BufferManager	typeref:typename:const std::vector<void * > &
+getDeviceBindings	include/buffers.h	/^    std::vector<void*>& getDeviceBindings()$/;"	f	class:TensorRTCommon::BufferManager	typeref:typename:std::vector<void * > &
+getDeviceBuffer	include/buffers.h	/^    void* getDeviceBuffer(const std::string& tensorName) const$/;"	f	class:TensorRTCommon::BufferManager	typeref:typename:void *
+getDims	include/BatchStream.h	/^    nvinfer1::Dims getDims() const override$/;"	f	class:BatchStream	typeref:typename:nvinfer1::Dims
+getDims	include/BatchStream.h	/^    nvinfer1::Dims getDims() const override$/;"	f	class:MNISTBatchStream	typeref:typename:nvinfer1::Dims
+getElementSize	include/common.h	/^inline unsigned int getElementSize(nvinfer1::DataType t)$/;"	f	namespace:TensorRTCommon	typeref:typename:unsigned int
+getFileBatch	include/BatchStream.h	/^    float* getFileBatch()$/;"	f	class:BatchStream	typeref:typename:float *
+getFileLabels	include/BatchStream.h	/^    float* getFileLabels()$/;"	f	class:BatchStream	typeref:typename:float *
+getFileType	include/common.h	/^inline std::string getFileType(const std::string& filepath)$/;"	f	namespace:TensorRTCommon	typeref:typename:std::string
+getH	include/common.h	/^inline int getH(const Dims& d)$/;"	f	namespace:TensorRTCommon	typeref:typename:int
+getHostBuffer	include/buffers.h	/^    void* getHostBuffer(const std::string& tensorName) const$/;"	f	class:TensorRTCommon::BufferManager	typeref:typename:void *
+getLabels	include/BatchStream.h	/^    float* getLabels() override$/;"	f	class:BatchStream	typeref:typename:float *
+getLabels	include/BatchStream.h	/^    float* getLabels() override$/;"	f	class:MNISTBatchStream	typeref:typename:float *
+getMaxValue	include/common.h	/^inline float getMaxValue(const float* buffer, int64_t size)$/;"	f	namespace:TensorRTCommon	typeref:typename:float
+getReportableSeverity	include/logging.h	/^    Severity getReportableSeverity() const$/;"	f	class:Logging::Logger	typeref:typename:Severity
+getTRTLogger	include/logging.h	/^    nvinfer1::ILogger& getTRTLogger()$/;"	f	class:Logging::Logger	typeref:typename:nvinfer1::ILogger &
+getW	include/common.h	/^inline int getW(const Dims& d)$/;"	f	namespace:TensorRTCommon	typeref:typename:int
+get_bboxes	include/TRTinfer.hpp	/^    std::vector<std::vector<BoundingBox>> get_bboxes(int batch_size, int keep_topk,$/;"	f	class:trtinfer::TRTInfer	typeref:typename:std::vector<std::vector<BoundingBox>>
+h	include/TRTinfer.hpp	/^    float x, y, w, h;$/;"	m	struct:trtinfer::DagcppBox	typeref:typename:float
+h	include/common.h	/^    int h, w, max;$/;"	m	struct:TensorRTCommon::PPM	typeref:typename:int
+h	include/common.h	/^    int h, w, max;$/;"	m	struct:TensorRTCommon::vPPM	typeref:typename:int
+half	include/half.h	/^    HALF_CONSTEXPR half() HALF_NOEXCEPT : data_() {}$/;"	f	class:half_float::half	typeref:typename:HALF_CONSTEXPR
+half	include/half.h	/^    HALF_CONSTEXPR half(detail::binary_t, detail::uint16 bits) HALF_NOEXCEPT : data_(bits) {}$/;"	f	class:half_float::half	typeref:typename:HALF_CONSTEXPR
+half	include/half.h	/^    explicit half(float rhs)$/;"	f	class:half_float::half
+half	include/half.h	/^    half(detail::expr rhs)$/;"	f	class:half_float::half
+half	include/half.h	/^class half$/;"	c	namespace:half_float
+half2float	include/half.h	/^T half2float(uint16 value)$/;"	f	namespace:half_float::detail	typeref:typename:T
+half2float_impl	include/half.h	/^T half2float_impl(uint16 value, T, ...)$/;"	f	namespace:half_float::detail	typeref:typename:T
+half2float_impl	include/half.h	/^inline double half2float_impl(uint16 value, double, true_type)$/;"	f	namespace:half_float::detail	typeref:typename:double
+half2float_impl	include/half.h	/^inline float half2float_impl(uint16 value, float, true_type)$/;"	f	namespace:half_float::detail	typeref:typename:float
+half2int	include/half.h	/^T half2int(uint16 value)$/;"	f	namespace:half_float::detail	typeref:typename:T
+half2int_impl	include/half.h	/^T half2int_impl(uint16 value)$/;"	f	namespace:half_float::detail	typeref:typename:T
+half2int_up	include/half.h	/^T half2int_up(uint16 value)$/;"	f	namespace:half_float::detail	typeref:typename:T
+half_caster	include/half.h	/^struct half_caster$/;"	s	namespace:half_float::detail
+half_caster	include/half.h	/^struct half_caster<T, expr, R>$/;"	s	namespace:half_float::detail
+half_caster	include/half.h	/^struct half_caster<T, half, R>$/;"	s	namespace:half_float::detail
+half_caster	include/half.h	/^struct half_caster<half, U, R>$/;"	s	namespace:half_float::detail
+half_caster	include/half.h	/^struct half_caster<half, expr, R> : half_caster<half, half, R>$/;"	s	namespace:half_float::detail
+half_caster	include/half.h	/^struct half_caster<half, half, R>$/;"	s	namespace:half_float::detail
+half_float	include/half.h	/^namespace half_float$/;"	n
+has	include/cmdline.h	/^    bool has;$/;"	m	class:cmdline::parser::option_with_value	typeref:typename:bool
+has	include/cmdline.h	/^    bool has;$/;"	m	class:cmdline::parser::option_without_value	typeref:typename:bool
+has_denorm	include/half.h	/^    static HALF_CONSTEXPR_CONST float_denorm_style has_denorm = denorm_present;$/;"	m	class:std::numeric_limits	typeref:typename:HALF_CONSTEXPR_CONST float_denorm_style
+has_infinity	include/half.h	/^    static HALF_CONSTEXPR_CONST bool has_infinity = true;$/;"	m	class:std::numeric_limits	typeref:typename:HALF_CONSTEXPR_CONST bool
+has_quiet_NaN	include/half.h	/^    static HALF_CONSTEXPR_CONST bool has_quiet_NaN = true;$/;"	m	class:std::numeric_limits	typeref:typename:HALF_CONSTEXPR_CONST bool
+has_set	include/cmdline.h	/^    bool has_set() const {$/;"	f	class:cmdline::parser::option_without_value	typeref:typename:bool
+has_set	include/cmdline.h	/^    bool has_set() const{$/;"	f	class:cmdline::parser::option_with_value	typeref:typename:bool
+has_value	include/cmdline.h	/^    bool has_value() const { return false; }$/;"	f	class:cmdline::parser::option_without_value	typeref:typename:bool
+has_value	include/cmdline.h	/^    bool has_value() const { return true; }$/;"	f	class:cmdline::parser::option_with_value	typeref:typename:bool
+hash	include/half.h	/^struct hash<half_float::half> \/\/: unary_function<half_float::half,size_t>$/;"	s	namespace:std
+help	include/argsParser.h	/^    bool help{false};$/;"	m	struct:TensorRTCommon::Args	typeref:typename:bool
+high	include/cmdline.h	/^  T low, high;$/;"	m	struct:cmdline::range_reader	typeref:typename:T
+hostBuffer	include/buffers.h	/^    HostBuffer hostBuffer;$/;"	m	class:TensorRTCommon::ManagedBuffer	typeref:typename:HostBuffer
+hypot	include/half.h	/^    static expr hypot(float x, float y)$/;"	f	struct:half_float::detail::functions	typeref:typename:expr
+hypot	include/half.h	/^inline expr hypot(expr x, expr y)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+hypot	include/half.h	/^inline expr hypot(expr x, half y)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+hypot	include/half.h	/^inline expr hypot(half x, expr y)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+hypot	include/half.h	/^inline expr hypot(half x, half y)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+ifdynamic	include/TRTinfer.hpp	/^    int ifdynamic = 1;$/;"	m	struct:trtinfer::TRTParams	typeref:typename:int
+ilogb	include/half.h	/^    static int ilogb(half arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:int
+ilogb	include/half.h	/^inline int ilogb(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:int
+ilogb	include/half.h	/^inline int ilogb(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:int
+infer	include/TRTinfer.hpp	/^    bool infer(std::vector<cv::Mat> &inputImages)$/;"	f	class:trtinfer::TRTInfer	typeref:typename:bool
+inferImages	include/TRTinfer.hpp	/^    std::vector<cv::Mat> inferImages;$/;"	m	class:trtinfer::TRTInfer	typeref:typename:std::vector<cv::Mat>
+infer_iteration	include/TRTinfer.hpp	/^    bool infer_iteration(nvinfer1::IExecutionContext* context, TensorRTCommon::BufferManager& mb/;"	f	class:trtinfer::TRTInfer	typeref:typename:bool
+infer_object	include/common.h	/^std::shared_ptr<T> infer_object(T* obj)$/;"	f	namespace:TensorRTCommon	typeref:typename:std::shared_ptr<T>
+infinity	include/half.h	/^    static HALF_CONSTEXPR half_float::half infinity() HALF_NOTHROW$/;"	f	class:std::numeric_limits	typeref:typename:HALF_CONSTEXPR half_float::half
+init	src/Yolov5.cpp	/^bool Yolov5::init(){$/;"	f	class:Yolov5::Yolov5	typeref:typename:bool
+initializeYolov5Params	yolov5_trt.cpp	/^trtinfer::TRTParams initializeYolov5Params(const std::string& tensor_path, const int n_classes, /;"	f	typeref:typename:trtinfer::TRTParams
+inputImageName	include/TRTinfer.hpp	/^    std::string inputImageName;$/;"	m	struct:trtinfer::TRTParams	typeref:typename:std::string
+inputShape	include/TRTinfer.hpp	/^    std::vector<int> inputShape;$/;"	m	struct:trtinfer::TRTParams	typeref:typename:std::vector<int>
+inputTensorNames	include/TRTinfer.hpp	/^    std::vector<std::string> inputTensorNames;$/;"	m	struct:trtinfer::TRTParams	typeref:typename:std::vector<std::string>
+inputTensorNames	include/argsParser.h	/^    std::vector<std::string> inputTensorNames;$/;"	m	struct:TensorRTCommon::SampleParams	typeref:typename:std::vector<std::string>
+int2half	include/half.h	/^uint16 int2half(T value)$/;"	f	namespace:half_float::detail	typeref:typename:uint16
+int2half_impl	include/half.h	/^uint16 int2half_impl(T value)$/;"	f	namespace:half_float::detail	typeref:typename:uint16
+int8	include/TRTinfer.hpp	/^    int int8 = 0;$/;"	m	struct:trtinfer::TRTParams	typeref:typename:int
+int8	include/argsParser.h	/^    bool int8{false};                  \/\/!< Allow runnning the network in Int8 mode.$/;"	m	struct:TensorRTCommon::SampleParams	typeref:typename:bool
+isDebug	include/common.h	/^inline bool isDebug()$/;"	f	namespace:TensorRTCommon	typeref:typename:bool
+is_exact	include/half.h	/^    static HALF_CONSTEXPR_CONST bool is_exact = false;$/;"	m	class:std::numeric_limits	typeref:typename:HALF_CONSTEXPR_CONST bool
+is_float	include/half.h	/^struct is_float : std::is_floating_point<T>$/;"	s	namespace:half_float::detail
+is_iec559	include/half.h	/^    static HALF_CONSTEXPR_CONST bool is_iec559 = true;$/;"	m	class:std::numeric_limits	typeref:typename:HALF_CONSTEXPR_CONST bool
+is_modulo	include/half.h	/^    static HALF_CONSTEXPR_CONST bool is_modulo = false;$/;"	m	class:std::numeric_limits	typeref:typename:HALF_CONSTEXPR_CONST bool
+is_same	include/cmdline.h	/^struct is_same {$/;"	s	namespace:cmdline::detail
+is_same	include/cmdline.h	/^struct is_same<T, T>{$/;"	s	namespace:cmdline::detail
+is_signed	include/half.h	/^    static HALF_CONSTEXPR_CONST bool is_signed = true;$/;"	m	class:std::numeric_limits	typeref:typename:HALF_CONSTEXPR_CONST bool
+isequal	include/half.h	/^    static bool isequal(half x, half y)$/;"	f	struct:half_float::detail::functions	typeref:typename:bool
+isfinite	include/half.h	/^    static bool isfinite(half arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:bool
+isfinite	include/half.h	/^inline bool isfinite(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:bool
+isfinite	include/half.h	/^inline bool isfinite(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:bool
+isgreater	include/half.h	/^    static bool isgreater(half x, half y)$/;"	f	struct:half_float::detail::functions	typeref:typename:bool
+isgreater	include/half.h	/^inline bool isgreater(expr x, expr y)$/;"	f	namespace:half_float::detail	typeref:typename:bool
+isgreater	include/half.h	/^inline bool isgreater(expr x, half y)$/;"	f	namespace:half_float::detail	typeref:typename:bool
+isgreater	include/half.h	/^inline bool isgreater(half x, expr y)$/;"	f	namespace:half_float::detail	typeref:typename:bool
+isgreater	include/half.h	/^inline bool isgreater(half x, half y)$/;"	f	namespace:half_float::detail	typeref:typename:bool
+isgreaterequal	include/half.h	/^    static bool isgreaterequal(half x, half y)$/;"	f	struct:half_float::detail::functions	typeref:typename:bool
+isgreaterequal	include/half.h	/^inline bool isgreaterequal(expr x, expr y)$/;"	f	namespace:half_float::detail	typeref:typename:bool
+isgreaterequal	include/half.h	/^inline bool isgreaterequal(expr x, half y)$/;"	f	namespace:half_float::detail	typeref:typename:bool
+isgreaterequal	include/half.h	/^inline bool isgreaterequal(half x, expr y)$/;"	f	namespace:half_float::detail	typeref:typename:bool
+isgreaterequal	include/half.h	/^inline bool isgreaterequal(half x, half y)$/;"	f	namespace:half_float::detail	typeref:typename:bool
+isinf	include/half.h	/^    static bool isinf(half arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:bool
+isinf	include/half.h	/^inline bool isinf(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:bool
+isinf	include/half.h	/^inline bool isinf(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:bool
+isless	include/half.h	/^    static bool isless(half x, half y)$/;"	f	struct:half_float::detail::functions	typeref:typename:bool
+isless	include/half.h	/^inline bool isless(expr x, expr y)$/;"	f	namespace:half_float::detail	typeref:typename:bool
+isless	include/half.h	/^inline bool isless(expr x, half y)$/;"	f	namespace:half_float::detail	typeref:typename:bool
+isless	include/half.h	/^inline bool isless(half x, expr y)$/;"	f	namespace:half_float::detail	typeref:typename:bool
+isless	include/half.h	/^inline bool isless(half x, half y)$/;"	f	namespace:half_float::detail	typeref:typename:bool
+islessequal	include/half.h	/^    static bool islessequal(half x, half y)$/;"	f	struct:half_float::detail::functions	typeref:typename:bool
+islessequal	include/half.h	/^inline bool islessequal(expr x, expr y)$/;"	f	namespace:half_float::detail	typeref:typename:bool
+islessequal	include/half.h	/^inline bool islessequal(expr x, half y)$/;"	f	namespace:half_float::detail	typeref:typename:bool
+islessequal	include/half.h	/^inline bool islessequal(half x, expr y)$/;"	f	namespace:half_float::detail	typeref:typename:bool
+islessequal	include/half.h	/^inline bool islessequal(half x, half y)$/;"	f	namespace:half_float::detail	typeref:typename:bool
+islessgreater	include/half.h	/^    static bool islessgreater(half x, half y)$/;"	f	struct:half_float::detail::functions	typeref:typename:bool
+islessgreater	include/half.h	/^inline bool islessgreater(expr x, expr y)$/;"	f	namespace:half_float::detail	typeref:typename:bool
+islessgreater	include/half.h	/^inline bool islessgreater(expr x, half y)$/;"	f	namespace:half_float::detail	typeref:typename:bool
+islessgreater	include/half.h	/^inline bool islessgreater(half x, expr y)$/;"	f	namespace:half_float::detail	typeref:typename:bool
+islessgreater	include/half.h	/^inline bool islessgreater(half x, half y)$/;"	f	namespace:half_float::detail	typeref:typename:bool
+isnan	include/half.h	/^    static bool isnan(half arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:bool
+isnan	include/half.h	/^inline bool isnan(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:bool
+isnan	include/half.h	/^inline bool isnan(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:bool
+isnormal	include/half.h	/^    static bool isnormal(half arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:bool
+isnormal	include/half.h	/^inline bool isnormal(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:bool
+isnormal	include/half.h	/^inline bool isnormal(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:bool
+isnotequal	include/half.h	/^    static bool isnotequal(half x, half y)$/;"	f	struct:half_float::detail::functions	typeref:typename:bool
+isunordered	include/half.h	/^    static bool isunordered(half x, half y)$/;"	f	struct:half_float::detail::functions	typeref:typename:bool
+isunordered	include/half.h	/^inline bool isunordered(expr x, expr y)$/;"	f	namespace:half_float::detail	typeref:typename:bool
+isunordered	include/half.h	/^inline bool isunordered(expr x, half y)$/;"	f	namespace:half_float::detail	typeref:typename:bool
+isunordered	include/half.h	/^inline bool isunordered(half x, expr y)$/;"	f	namespace:half_float::detail	typeref:typename:bool
+isunordered	include/half.h	/^inline bool isunordered(half x, half y)$/;"	f	namespace:half_float::detail	typeref:typename:bool
+kFAILED	include/logging.h	/^        kFAILED,  \/\/!< The test failed$/;"	e	enum:Logging::Logger::TestResult
+kINVALID_SIZE_VALUE	include/buffers.h	/^    static const size_t kINVALID_SIZE_VALUE = ~size_t(0);$/;"	m	class:TensorRTCommon::BufferManager	typeref:typename:const size_t
+kPASSED	include/logging.h	/^        kPASSED,  \/\/!< The test passed$/;"	e	enum:Logging::Logger::TestResult
+kRUNNING	include/logging.h	/^        kRUNNING, \/\/!< The test is running$/;"	e	enum:Logging::Logger::TestResult
+kWAIVED	include/logging.h	/^        kWAIVED   \/\/!< The test was waived$/;"	e	enum:Logging::Logger::TestResult
+keepTopK	include/TRTinfer.hpp	/^    int keepTopK = 100;                   \/\/!< The maximum number of detection post-NMS$/;"	m	struct:trtinfer::TRTParams	typeref:typename:int
+keypoints	include/TRTinfer.hpp	/^    int keypoints;$/;"	m	struct:trtinfer::TRTParams	typeref:typename:int
+ldexp	include/half.h	/^inline half ldexp(expr arg, int exp)$/;"	f	namespace:half_float::detail	typeref:typename:half
+ldexp	include/half.h	/^inline half ldexp(half arg, int exp)$/;"	f	namespace:half_float::detail	typeref:typename:half
+lexical_cast_t	include/cmdline.h	/^class lexical_cast_t<Target, Source, true>{$/;"	c	namespace:cmdline::detail
+lexical_cast_t	include/cmdline.h	/^class lexical_cast_t<Target, std::string, false>{$/;"	c	namespace:cmdline::detail
+lexical_cast_t	include/cmdline.h	/^class lexical_cast_t<std::string, Source, false>{$/;"	c	namespace:cmdline::detail
+lexical_cast_t	include/cmdline.h	/^class lexical_cast_t{$/;"	c	namespace:cmdline::detail
+lgamma	include/half.h	/^    static double lgamma(double arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:double
+lgamma	include/half.h	/^    static expr lgamma(float arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:expr
+lgamma	include/half.h	/^inline expr lgamma(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+lgamma	include/half.h	/^inline expr lgamma(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+literal	include/half.h	/^namespace literal$/;"	n	namespace:half_float
+llrint	include/half.h	/^    static long long llrint(half arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:long long
+llrint	include/half.h	/^inline long long llrint(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:long long
+llrint	include/half.h	/^inline long long llrint(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:long long
+llround	include/half.h	/^    static long long llround(half arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:long long
+llround	include/half.h	/^inline long long llround(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:long long
+llround	include/half.h	/^inline long long llround(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:long long
+loadEngine	include/argsParser.h	/^    std::string loadEngine;$/;"	m	struct:TensorRTCommon::Args	typeref:typename:std::string
+loadLibrary	include/common.h	/^inline void loadLibrary(const std::string& path)$/;"	f	namespace:TensorRTCommon	typeref:typename:void
+locateFile	include/common.h	/^inline std::string locateFile(const std::string& filepathSuffix, const std::vector<std::string>&/;"	f	typeref:typename:std::string
+log	include/half.h	/^    static expr log(float arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:expr
+log	include/half.h	/^inline expr log(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+log	include/half.h	/^inline expr log(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+log	include/logging.h	/^    void log(Severity severity, const char* msg) override$/;"	f	class:Logging::Logger	typeref:typename:void
+log10	include/half.h	/^    static expr log10(float arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:expr
+log10	include/half.h	/^inline expr log10(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+log10	include/half.h	/^inline expr log10(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+log1p	include/half.h	/^    static expr log1p(float arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:expr
+log1p	include/half.h	/^inline expr log1p(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+log1p	include/half.h	/^inline expr log1p(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+log2	include/half.h	/^    static expr log2(float arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:expr
+log2	include/half.h	/^inline expr log2(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+log2	include/half.h	/^inline expr log2(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+logb	include/half.h	/^    static half logb(half arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:half
+logb	include/half.h	/^inline half logb(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:half
+logb	include/half.h	/^inline half logb(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:half
+low	include/cmdline.h	/^  T low, high;$/;"	m	struct:cmdline::range_reader	typeref:typename:T
+lowest	include/half.h	/^    static HALF_CONSTEXPR half_float::half lowest() HALF_NOTHROW$/;"	f	class:std::numeric_limits	typeref:typename:HALF_CONSTEXPR half_float::half
+lrint	include/half.h	/^    static long lrint(half arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:long
+lrint	include/half.h	/^inline long lrint(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:long
+lrint	include/half.h	/^inline long lrint(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:long
+lround	include/half.h	/^    static long lround(half arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:long
+lround	include/half.h	/^inline long lround(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:long
+lround	include/half.h	/^inline long lround(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:long
+mBatch	include/BatchStream.h	/^    std::vector<float> mBatch;         \/\/!< Data for the batch$/;"	m	class:BatchStream	typeref:typename:std::vector<float>
+mBatchCount	include/BatchStream.h	/^    int mBatchCount{0}; \/\/!< The batch that will be read on the next invocation of next()$/;"	m	class:MNISTBatchStream	typeref:typename:int
+mBatchCount	include/BatchStream.h	/^    int mBatchCount{0};$/;"	m	class:BatchStream	typeref:typename:int
+mBatchSize	include/BatchStream.h	/^    int mBatchSize{0};$/;"	m	class:BatchStream	typeref:typename:int
+mBatchSize	include/BatchStream.h	/^    int mBatchSize{0};$/;"	m	class:MNISTBatchStream	typeref:typename:int
+mBatchSize	include/buffers.h	/^    int mBatchSize;                                              \/\/!< The batch size for legac/;"	m	class:TensorRTCommon::BufferManager	typeref:typename:int
+mBuffer	include/buffers.h	/^    void* mBuffer;$/;"	m	class:TensorRTCommon::GenericBuffer	typeref:typename:void *
+mBuffer	include/logging.h	/^    LogStreamConsumerBuffer mBuffer;$/;"	m	class:Logging::LogStreamConsumerBase	typeref:typename:LogStreamConsumerBuffer
+mCalibrationCache	include/EntropyCalibrator.h	/^    std::vector<char> mCalibrationCache;$/;"	m	class:EntropyCalibratorImpl	typeref:typename:std::vector<char>
+mCalibrationTableName	include/EntropyCalibrator.h	/^    std::string mCalibrationTableName;$/;"	m	class:EntropyCalibratorImpl	typeref:typename:std::string
+mCapacity	include/buffers.h	/^    size_t mSize{0}, mCapacity{0};$/;"	m	class:TensorRTCommon::GenericBuffer	typeref:typename:size_t
+mClasses	include/TRTinfer.hpp	/^    std::vector<std::string> mClasses;$/;"	m	class:trtinfer::TRTInfer	typeref:typename:std::vector<std::string>
+mCmdline	include/logging.h	/^        std::string mCmdline;$/;"	m	class:Logging::Logger::TestAtom	typeref:typename:std::string
+mData	include/BatchStream.h	/^    std::vector<float> mData{};$/;"	m	class:MNISTBatchStream	typeref:typename:std::vector<float>
+mData	include/common.h	/^    void* mData;$/;"	m	class:TensorRTCommon::HostMemory	typeref:typename:void *
+mDataDir	include/BatchStream.h	/^    std::vector<std::string> mDataDir; \/\/!< Directories where the files can be found$/;"	m	class:BatchStream	typeref:typename:std::vector<std::string>
+mDeviceBindings	include/buffers.h	/^    std::vector<void*> mDeviceBindings;                          \/\/!< The vector of device buf/;"	m	class:TensorRTCommon::BufferManager	typeref:typename:std::vector<void * >
+mDeviceInput	include/EntropyCalibrator.h	/^    void* mDeviceInput{nullptr};$/;"	m	class:EntropyCalibratorImpl	typeref:typename:void *
+mDims	include/BatchStream.h	/^    Dims mDims{};$/;"	m	class:MNISTBatchStream	typeref:typename:Dims
+mDims	include/BatchStream.h	/^    nvinfer1::Dims mDims;              \/\/!< Input dimensions$/;"	m	class:BatchStream	typeref:typename:nvinfer1::Dims
+mEngine	include/TRTinfer.hpp	/^    std::shared_ptr<nvinfer1::ICudaEngine> mEngine; \/\/!< The TensorRT engine used to run the n/;"	m	class:trtinfer::TRTInfer	typeref:typename:std::shared_ptr<nvinfer1::ICudaEngine>
+mEngine	include/buffers.h	/^    std::shared_ptr<nvinfer1::ICudaEngine> mEngine;              \/\/!< The pointer to the engin/;"	m	class:TensorRTCommon::BufferManager	typeref:typename:std::shared_ptr<nvinfer1::ICudaEngine>
+mFileBatch	include/BatchStream.h	/^    std::vector<float> mFileBatch;     \/\/!< List of image files$/;"	m	class:BatchStream	typeref:typename:std::vector<float>
+mFileBatchPos	include/BatchStream.h	/^    int mFileBatchPos{0};$/;"	m	class:BatchStream	typeref:typename:int
+mFileCount	include/BatchStream.h	/^    int mFileCount{0};$/;"	m	class:BatchStream	typeref:typename:int
+mFileLabels	include/BatchStream.h	/^    std::vector<float> mFileLabels;    \/\/!< List of label files$/;"	m	class:BatchStream	typeref:typename:std::vector<float>
+mImageSize	include/BatchStream.h	/^    int mImageSize{0};$/;"	m	class:BatchStream	typeref:typename:int
+mImpl	include/EntropyCalibrator.h	/^    EntropyCalibratorImpl<TBatchStream> mImpl;$/;"	m	class:Int8EntropyCalibrator2	typeref:typename:EntropyCalibratorImpl<TBatchStream>
+mInputBlobName	include/EntropyCalibrator.h	/^    const char* mInputBlobName;$/;"	m	class:EntropyCalibratorImpl	typeref:typename:const char *
+mInputCount	include/EntropyCalibrator.h	/^    size_t mInputCount;$/;"	m	class:EntropyCalibratorImpl	typeref:typename:size_t
+mInputDims	include/TRTinfer.hpp	/^    nvinfer1::Dims mInputDims; \/\/!< The dimensions of the input to the network.$/;"	m	class:trtinfer::TRTInfer	typeref:typename:nvinfer1::Dims
+mLabels	include/BatchStream.h	/^    std::vector<float> mLabels;        \/\/!< Labels for the batch$/;"	m	class:BatchStream	typeref:typename:std::vector<float>
+mLabels	include/BatchStream.h	/^    std::vector<float> mLabels{};$/;"	m	class:MNISTBatchStream	typeref:typename:std::vector<float>
+mLayerNames	include/common.h	/^    std::vector<std::string> mLayerNames;$/;"	m	struct:SimpleProfiler	typeref:typename:std::vector<std::string>
+mListFile	include/BatchStream.h	/^    std::string mListFile;             \/\/!< File name of the list of image names$/;"	m	class:BatchStream	typeref:typename:std::string
+mManagedBuffers	include/buffers.h	/^    std::vector<std::unique_ptr<ManagedBuffer>> mManagedBuffers; \/\/!< The vector of pointers t/;"	m	class:TensorRTCommon::BufferManager	typeref:typename:std::vector<std::unique_ptr<ManagedBuffer>>
+mMaxBatches	include/BatchStream.h	/^    int mMaxBatches{0};$/;"	m	class:BatchStream	typeref:typename:int
+mMaxBatches	include/BatchStream.h	/^    int mMaxBatches{0};$/;"	m	class:MNISTBatchStream	typeref:typename:int
+mMs	include/common.h	/^    float mMs{0.0f};$/;"	m	class:TensorRTCommon::TimerBase	typeref:typename:float
+mName	include/common.h	/^    std::string mName;$/;"	m	struct:SimpleProfiler	typeref:typename:std::string
+mName	include/logging.h	/^        std::string mName;$/;"	m	class:Logging::Logger::TestAtom	typeref:typename:std::string
+mOutput	include/logging.h	/^    std::ostream& mOutput;$/;"	m	class:Logging::LogStreamConsumerBuffer	typeref:typename:std::ostream &
+mParams	include/TRTinfer.hpp	/^    TRTParams mParams; \/\/!< The parameters for the TRTInfer$/;"	m	class:trtinfer::TRTInfer	typeref:typename:TRTParams
+mPrefix	include/BatchStream.h	/^    std::string mPrefix;               \/\/!< Batch file name prefix$/;"	m	class:BatchStream	typeref:typename:std::string
+mPrefix	include/logging.h	/^    std::string mPrefix;$/;"	m	class:Logging::LogStreamConsumerBuffer	typeref:typename:std::string
+mProfile	include/common.h	/^    std::map<std::string, Record> mProfile;$/;"	m	struct:SimpleProfiler	typeref:typename:std::map<std::string,Record>
+mReadCache	include/EntropyCalibrator.h	/^    bool mReadCache{true};$/;"	m	class:EntropyCalibratorImpl	typeref:typename:bool
+mReportableSeverity	include/logging.h	/^    Severity mReportableSeverity;$/;"	m	class:Logging::Logger	typeref:typename:Severity
+mSeverity	include/logging.h	/^    Severity mSeverity;$/;"	m	class:Logging::LogStreamConsumer	typeref:typename:Severity
+mShouldLog	include/logging.h	/^    bool mShouldLog;$/;"	m	class:Logging::LogStreamConsumer	typeref:typename:bool
+mShouldLog	include/logging.h	/^    bool mShouldLog;$/;"	m	class:Logging::LogStreamConsumerBuffer	typeref:typename:bool
+mSize	include/buffers.h	/^    size_t mSize{0}, mCapacity{0};$/;"	m	class:TensorRTCommon::GenericBuffer	typeref:typename:size_t
+mSize	include/common.h	/^    std::size_t mSize;$/;"	m	class:TensorRTCommon::HostMemory	typeref:typename:std::size_t
+mSpeedInfo	include/TRTinfer.hpp	/^    SpeedInfo mSpeedInfo;$/;"	m	class:trtinfer::TRTInfer	typeref:typename:SpeedInfo
+mStart	include/common.h	/^    cudaEvent_t mStart, mStop;$/;"	m	class:TensorRTCommon::GpuTimer	typeref:typename:cudaEvent_t
+mStart	include/common.h	/^    std::chrono::time_point<Clock> mStart, mStop;$/;"	m	class:TensorRTCommon::CpuTimer	typeref:typename:std::chrono::time_point<Clock>
+mStarted	include/logging.h	/^        bool mStarted;$/;"	m	class:Logging::Logger::TestAtom	typeref:typename:bool
+mStop	include/common.h	/^    cudaEvent_t mStart, mStop;$/;"	m	class:TensorRTCommon::GpuTimer	typeref:typename:cudaEvent_t
+mStop	include/common.h	/^    std::chrono::time_point<Clock> mStart, mStop;$/;"	m	class:TensorRTCommon::CpuTimer	typeref:typename:std::chrono::time_point<Clock>
+mStream	include/EntropyCalibrator.h	/^    TBatchStream mStream;$/;"	m	class:EntropyCalibratorImpl	typeref:typename:TBatchStream
+mStream	include/common.h	/^    cudaStream_t mStream;$/;"	m	class:TensorRTCommon::GpuTimer	typeref:typename:cudaStream_t
+mSuffix	include/BatchStream.h	/^    std::string mSuffix;               \/\/!< Batch file name suffix$/;"	m	class:BatchStream	typeref:typename:std::string
+mType	include/buffers.h	/^    nvinfer1::DataType mType;$/;"	m	class:TensorRTCommon::GenericBuffer	typeref:typename:nvinfer1::DataType
+mType	include/common.h	/^    DataType mType;$/;"	m	class:TensorRTCommon::HostMemory	typeref:typename:DataType
+magic	include/common.h	/^    std::string magic, fileName;$/;"	m	struct:TensorRTCommon::PPM	typeref:typename:std::string
+magic	include/common.h	/^    std::string magic, fileName;$/;"	m	struct:TensorRTCommon::vPPM	typeref:typename:std::string
+main	yolov5_trt.cpp	/^int main(int argc, char** argv)$/;"	f	typeref:typename:int
+makeObjGuard	include/common.h	/^makeObjGuard(T_* t)$/;"	f	typeref:typename:T
+max	include/common.h	/^    int h, w, max;$/;"	m	struct:TensorRTCommon::PPM	typeref:typename:int
+max	include/common.h	/^    int h, w, max;$/;"	m	struct:TensorRTCommon::vPPM	typeref:typename:int
+max	include/half.h	/^    static HALF_CONSTEXPR half_float::half max() HALF_NOTHROW$/;"	f	class:std::numeric_limits	typeref:typename:HALF_CONSTEXPR half_float::half
+max_digits10	include/half.h	/^    static HALF_CONSTEXPR_CONST int max_digits10 = 5;$/;"	m	class:std::numeric_limits	typeref:typename:HALF_CONSTEXPR_CONST int
+max_exponent	include/half.h	/^    static HALF_CONSTEXPR_CONST int max_exponent = 16;$/;"	m	class:std::numeric_limits	typeref:typename:HALF_CONSTEXPR_CONST int
+max_exponent10	include/half.h	/^    static HALF_CONSTEXPR_CONST int max_exponent10 = 4;$/;"	m	class:std::numeric_limits	typeref:typename:HALF_CONSTEXPR_CONST int
+max_shape	include/TRTinfer.hpp	/^    std::vector<int> max_shape;$/;"	m	struct:trtinfer::TRTParams	typeref:typename:std::vector<int>
+meanFileName	include/argsParser.h	/^    std::string meanFileName;     \/\/!< Filename of mean file of a network$/;"	m	struct:TensorRTCommon::CaffeSampleParams	typeref:typename:std::string
+memcpyBuffers	include/buffers.h	/^    void memcpyBuffers(const bool copyInput, const bool deviceToHost, const bool async, const cu/;"	f	class:TensorRTCommon::BufferManager	typeref:typename:void
+microseconds	include/common.h	/^    float microseconds() const noexcept$/;"	f	class:TensorRTCommon::TimerBase	typeref:typename:float
+milliseconds	include/common.h	/^    float milliseconds() const noexcept$/;"	f	class:TensorRTCommon::TimerBase	typeref:typename:float
+min	include/half.h	/^    static HALF_CONSTEXPR half_float::half min() HALF_NOTHROW$/;"	f	class:std::numeric_limits	typeref:typename:HALF_CONSTEXPR half_float::half
+min_exponent	include/half.h	/^    static HALF_CONSTEXPR_CONST int min_exponent = -13;$/;"	m	class:std::numeric_limits	typeref:typename:HALF_CONSTEXPR_CONST int
+min_exponent10	include/half.h	/^    static HALF_CONSTEXPR_CONST int min_exponent10 = -4;$/;"	m	class:std::numeric_limits	typeref:typename:HALF_CONSTEXPR_CONST int
+min_shape	include/TRTinfer.hpp	/^    std::vector<int> min_shape;$/;"	m	struct:trtinfer::TRTParams	typeref:typename:std::vector<int>
+minus	include/half.h	/^    static expr minus(float x, float y)$/;"	f	struct:half_float::detail::functions	typeref:typename:expr
+model	include/TRTinfer.hpp	/^    long long model;$/;"	m	struct:trtinfer::SpeedInfo	typeref:typename:long long
+models/export.py	README.md	/^#### models\/export.py$/;"	t	subsection:Torch -> onnx
+models/yolo.py:	README.md	/^#### models\/yolo.py:$/;"	t	subsection:Torch -> onnx
+modf	include/half.h	/^    static half modf(half arg, half* iptr)$/;"	f	struct:half_float::detail::functions	typeref:typename:half
+modf	include/half.h	/^inline half modf(expr arg, half* iptr)$/;"	f	namespace:half_float::detail	typeref:typename:half
+modf	include/half.h	/^inline half modf(half arg, half* iptr)$/;"	f	namespace:half_float::detail	typeref:typename:half
+msg	include/cmdline.h	/^  std::string msg;$/;"	m	class:cmdline::cmdline_error	typeref:typename:std::string
+multiplies	include/half.h	/^    static expr multiplies(float x, float y)$/;"	f	struct:half_float::detail::functions	typeref:typename:expr
+must	include/cmdline.h	/^    bool must() const{$/;"	f	class:cmdline::parser::option_with_value	typeref:typename:bool
+must	include/cmdline.h	/^    bool must() const{$/;"	f	class:cmdline::parser::option_without_value	typeref:typename:bool
+n_batch	include/TRTinfer.hpp	/^    int n_batch = 1;$/;"	m	struct:trtinfer::TRTParams	typeref:typename:int
+nam	include/cmdline.h	/^    std::string nam;$/;"	m	class:cmdline::parser::option_with_value	typeref:typename:std::string
+nam	include/cmdline.h	/^    std::string nam;$/;"	m	class:cmdline::parser::option_without_value	typeref:typename:std::string
+name	include/cmdline.h	/^    const std::string &name() const{$/;"	f	class:cmdline::parser::option_with_value	typeref:typename:const std::string &
+name	include/cmdline.h	/^    const std::string &name() const{$/;"	f	class:cmdline::parser::option_without_value	typeref:typename:const std::string &
+nanh	include/half.h	/^    static half nanh()$/;"	f	struct:half_float::detail::functions	typeref:typename:half
+nanh	include/half.h	/^inline half nanh(const char*)$/;"	f	namespace:half_float::detail	typeref:typename:half
+nbBytes	include/buffers.h	/^    size_t nbBytes() const$/;"	f	class:TensorRTCommon::GenericBuffer	typeref:typename:size_t
+nbCalBatches	include/TRTinfer.hpp	/^    int nbCalBatches = 100;               \/\/!< The number of batches for calibration$/;"	m	struct:trtinfer::TRTParams	typeref:typename:int
+nearbyint	include/half.h	/^inline half nearbyint(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:half
+nearbyint	include/half.h	/^inline half nearbyint(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:half
+need	include/cmdline.h	/^    bool need;$/;"	m	class:cmdline::parser::option_with_value	typeref:typename:bool
+negate	include/half.h	/^    static HALF_CONSTEXPR expr negate(float arg)$/;"	f	struct:half_float::detail::unary_specialized	typeref:typename:HALF_CONSTEXPR expr
+negate	include/half.h	/^    static HALF_CONSTEXPR half negate(half arg)$/;"	f	struct:half_float::detail::unary_specialized	typeref:typename:HALF_CONSTEXPR half
+next	include/BatchStream.h	/^    bool next() override$/;"	f	class:BatchStream	typeref:typename:bool
+next	include/BatchStream.h	/^    bool next() override$/;"	f	class:MNISTBatchStream	typeref:typename:bool
+nextafter	include/half.h	/^    static half nextafter(half from, half to)$/;"	f	struct:half_float::detail::functions	typeref:typename:half
+nextafter	include/half.h	/^inline half nextafter(expr from, expr to)$/;"	f	namespace:half_float::detail	typeref:typename:half
+nextafter	include/half.h	/^inline half nextafter(expr from, half to)$/;"	f	namespace:half_float::detail	typeref:typename:half
+nextafter	include/half.h	/^inline half nextafter(half from, expr to)$/;"	f	namespace:half_float::detail	typeref:typename:half
+nextafter	include/half.h	/^inline half nextafter(half from, half to)$/;"	f	namespace:half_float::detail	typeref:typename:half
+nexttoward	include/half.h	/^    static half nexttoward(half from, long double to)$/;"	f	struct:half_float::detail::functions	typeref:typename:half
+nexttoward	include/half.h	/^inline half nexttoward(expr from, long double to)$/;"	f	namespace:half_float::detail	typeref:typename:half
+nexttoward	include/half.h	/^inline half nexttoward(half from, long double to)$/;"	f	namespace:half_float::detail	typeref:typename:half
+now_in_milliseconds	include/TRTinfer.hpp	/^    long long now_in_milliseconds()$/;"	f	class:trtinfer::TRTInfer	typeref:typename:long long
+numeric_limits	include/half.h	/^class numeric_limits<half_float::half> : public numeric_limits<float>$/;"	c	namespace:std
+oneof	include/cmdline.h	/^oneof_reader<T> oneof(T a1)$/;"	f	namespace:cmdline	typeref:typename:oneof_reader<T>
+oneof	include/cmdline.h	/^oneof_reader<T> oneof(T a1, T a2)$/;"	f	namespace:cmdline	typeref:typename:oneof_reader<T>
+oneof	include/cmdline.h	/^oneof_reader<T> oneof(T a1, T a2, T a3)$/;"	f	namespace:cmdline	typeref:typename:oneof_reader<T>
+oneof	include/cmdline.h	/^oneof_reader<T> oneof(T a1, T a2, T a3, T a4)$/;"	f	namespace:cmdline	typeref:typename:oneof_reader<T>
+oneof	include/cmdline.h	/^oneof_reader<T> oneof(T a1, T a2, T a3, T a4, T a5)$/;"	f	namespace:cmdline	typeref:typename:oneof_reader<T>
+oneof	include/cmdline.h	/^oneof_reader<T> oneof(T a1, T a2, T a3, T a4, T a5, T a6)$/;"	f	namespace:cmdline	typeref:typename:oneof_reader<T>
+oneof	include/cmdline.h	/^oneof_reader<T> oneof(T a1, T a2, T a3, T a4, T a5, T a6, T a7)$/;"	f	namespace:cmdline	typeref:typename:oneof_reader<T>
+oneof	include/cmdline.h	/^oneof_reader<T> oneof(T a1, T a2, T a3, T a4, T a5, T a6, T a7, T a8)$/;"	f	namespace:cmdline	typeref:typename:oneof_reader<T>
+oneof	include/cmdline.h	/^oneof_reader<T> oneof(T a1, T a2, T a3, T a4, T a5, T a6, T a7, T a8, T a9)$/;"	f	namespace:cmdline	typeref:typename:oneof_reader<T>
+oneof	include/cmdline.h	/^oneof_reader<T> oneof(T a1, T a2, T a3, T a4, T a5, T a6, T a7, T a8, T a9, T a10)$/;"	f	namespace:cmdline	typeref:typename:oneof_reader<T>
+oneof_reader	include/cmdline.h	/^struct oneof_reader{$/;"	s	namespace:cmdline
+onnx->TensorRT & TensorRT inference	README.md	/^### onnx->TensorRT & TensorRT inference$/;"	S
+onnxFileName	include/TRTinfer.hpp	/^    std::string onnxFileName;$/;"	m	struct:trtinfer::TRTParams	typeref:typename:std::string
+onnxFileName	include/argsParser.h	/^    std::string onnxFileName; \/\/!< Filename of ONNX file of a network$/;"	m	struct:TensorRTCommon::OnnxSampleParams	typeref:typename:std::string
+operator !=	include/half.h	/^typename enable<bool, T, U>::type operator!=(T x, U y)$/;"	f	namespace:half_float::detail	typeref:typename:enable<bool,T,U>::type
+operator ""_GiB	include/common.h	/^constexpr long double operator"" _GiB(long double val)$/;"	f	typeref:typename:long double
+operator ""_GiB	include/common.h	/^constexpr long long int operator"" _GiB(long long unsigned int val)$/;"	f	typeref:typename:long long int
+operator ""_KiB	include/common.h	/^constexpr long double operator"" _KiB(long double val)$/;"	f	typeref:typename:long double
+operator ""_KiB	include/common.h	/^constexpr long long int operator"" _KiB(long long unsigned int val)$/;"	f	typeref:typename:long long int
+operator ""_MiB	include/common.h	/^constexpr long double operator"" _MiB(long double val)$/;"	f	typeref:typename:long double
+operator ""_MiB	include/common.h	/^constexpr long long int operator"" _MiB(long long unsigned int val)$/;"	f	typeref:typename:long long int
+operator ""_h	include/half.h	/^inline half operator"" _h(long double value)$/;"	f	namespace:half_float::literal	typeref:typename:half
+operator ()	include/buffers.h	/^    bool operator()(void** ptr, size_t size) const$/;"	f	class:TensorRTCommon::DeviceAllocator	typeref:typename:bool
+operator ()	include/buffers.h	/^    bool operator()(void** ptr, size_t size) const$/;"	f	class:TensorRTCommon::HostAllocator	typeref:typename:bool
+operator ()	include/buffers.h	/^    void operator()(void* ptr) const$/;"	f	class:TensorRTCommon::DeviceFree	typeref:typename:void
+operator ()	include/buffers.h	/^    void operator()(void* ptr) const$/;"	f	class:TensorRTCommon::HostFree	typeref:typename:void
+operator ()	include/cmdline.h	/^  T operator()(const std::string &s) const {$/;"	f	struct:cmdline::range_reader	typeref:typename:T
+operator ()	include/cmdline.h	/^  T operator()(const std::string &s){$/;"	f	struct:cmdline::oneof_reader	typeref:typename:T
+operator ()	include/cmdline.h	/^  T operator()(const std::string &str){$/;"	f	struct:cmdline::default_reader	typeref:typename:T
+operator ()	include/common.h	/^    void operator()(T* obj) const$/;"	f	struct:TensorRTCommon::InferDeleter	typeref:typename:void
+operator ()	include/half.h	/^    result_type operator()(argument_type arg) const$/;"	f	struct:std::hash	typeref:typename:result_type
+operator *	include/half.h	/^typename enable<expr, T, U>::type operator*(T x, U y)$/;"	f	namespace:half_float::detail	typeref:typename:enable<expr,T,U>::type
+operator *=	include/half.h	/^    half& operator*=(float rhs)$/;"	f	class:half_float::half	typeref:typename:half &
+operator *=	include/half.h	/^    typename detail::enable<half&, T>::type operator*=(T rhs)$/;"	f	class:half_float::half	typeref:typename:detail::enable<half &,T>::type
+operator +	include/half.h	/^HALF_CONSTEXPR typename enable<T, T>::type operator+(T arg)$/;"	f	namespace:half_float::detail	typeref:typename:HALF_CONSTEXPR typename enable<T,T>::type
+operator +	include/half.h	/^typename enable<expr, T, U>::type operator+(T x, U y)$/;"	f	namespace:half_float::detail	typeref:typename:enable<expr,T,U>::type
+operator ++	include/half.h	/^    half operator++(int)$/;"	f	class:half_float::half	typeref:typename:half
+operator ++	include/half.h	/^    half& operator++()$/;"	f	class:half_float::half	typeref:typename:half &
+operator +=	include/half.h	/^    half& operator+=(float rhs)$/;"	f	class:half_float::half	typeref:typename:half &
+operator +=	include/half.h	/^    typename detail::enable<half&, T>::type operator+=(T rhs)$/;"	f	class:half_float::half	typeref:typename:detail::enable<half &,T>::type
+operator -	include/half.h	/^HALF_CONSTEXPR typename enable<T, T>::type operator-(T arg)$/;"	f	namespace:half_float::detail	typeref:typename:HALF_CONSTEXPR typename enable<T,T>::type
+operator -	include/half.h	/^typename enable<expr, T, U>::type operator-(T x, U y)$/;"	f	namespace:half_float::detail	typeref:typename:enable<expr,T,U>::type
+operator --	include/half.h	/^    half operator--(int)$/;"	f	class:half_float::half	typeref:typename:half
+operator --	include/half.h	/^    half& operator--()$/;"	f	class:half_float::half	typeref:typename:half &
+operator -=	include/half.h	/^    half& operator-=(float rhs)$/;"	f	class:half_float::half	typeref:typename:half &
+operator -=	include/half.h	/^    typename detail::enable<half&, T>::type operator-=(T rhs)$/;"	f	class:half_float::half	typeref:typename:detail::enable<half &,T>::type
+operator /	include/half.h	/^typename enable<expr, T, U>::type operator\/(T x, U y)$/;"	f	namespace:half_float::detail	typeref:typename:enable<expr,T,U>::type
+operator /=	include/half.h	/^    half& operator\/=(float rhs)$/;"	f	class:half_float::half	typeref:typename:half &
+operator /=	include/half.h	/^    typename detail::enable<half&, T>::type operator\/=(T rhs)$/;"	f	class:half_float::half	typeref:typename:detail::enable<half &,T>::type
+operator <	include/half.h	/^typename enable<bool, T, U>::type operator<(T x, U y)$/;"	f	namespace:half_float::detail	typeref:typename:enable<bool,T,U>::type
+operator <<	include/common.h	/^    friend std::ostream& operator<<(std::ostream& out, const SimpleProfiler& value)$/;"	f	typeref:typename:std::ostream &
+operator <<	include/common.h	/^inline std::ostream& operator<<(std::ostream& os, const nvinfer1::Dims& dims)$/;"	f	typeref:typename:std::ostream &
+operator <<	include/half.h	/^typename enable<std::basic_ostream<charT, traits>&, T>::type operator<<(std::basic_ostream<charT/;"	f	namespace:half_float::detail	typeref:typename:enable<std::basic_ostream<charT,traits> &,T>::type
+operator <=	include/half.h	/^typename enable<bool, T, U>::type operator<=(T x, U y)$/;"	f	namespace:half_float::detail	typeref:typename:enable<bool,T,U>::type
+operator =	include/buffers.h	/^    GenericBuffer& operator=(GenericBuffer&& buf)$/;"	f	class:TensorRTCommon::GenericBuffer	typeref:typename:GenericBuffer &
+operator =	include/half.h	/^    half& operator=(detail::expr rhs)$/;"	f	class:half_float::half	typeref:typename:half &
+operator =	include/half.h	/^    half& operator=(float rhs)$/;"	f	class:half_float::half	typeref:typename:half &
+operator ==	include/half.h	/^typename enable<bool, T, U>::type operator==(T x, U y)$/;"	f	namespace:half_float::detail	typeref:typename:enable<bool,T,U>::type
+operator >	include/half.h	/^typename enable<bool, T, U>::type operator>(T x, U y)$/;"	f	namespace:half_float::detail	typeref:typename:enable<bool,T,U>::type
+operator >=	include/half.h	/^typename enable<bool, T, U>::type operator>=(T x, U y)$/;"	f	namespace:half_float::detail	typeref:typename:enable<bool,T,U>::type
+operator >>	include/half.h	/^std::basic_istream<charT, traits>& operator>>(std::basic_istream<charT, traits>& in, half& arg)$/;"	f	namespace:half_float::detail	typeref:typename:std::basic_istream<charT,traits> &
+operator float	include/half.h	/^    HALF_CONSTEXPR operator float() const HALF_NOEXCEPT$/;"	f	struct:half_float::detail::expr	typeref:typename:HALF_CONSTEXPR
+operator float	include/half.h	/^    operator float() const$/;"	f	class:half_float::half
+opt_shape	include/TRTinfer.hpp	/^    std::vector<int> opt_shape;$/;"	m	struct:trtinfer::TRTParams	typeref:typename:std::vector<int>
+option_base	include/cmdline.h	/^  class option_base{$/;"	c	class:cmdline::parser
+option_with_value	include/cmdline.h	/^    option_with_value(const std::string &name,$/;"	f	class:cmdline::parser::option_with_value
+option_with_value	include/cmdline.h	/^  class option_with_value : public option_base {$/;"	c	class:cmdline::parser
+option_with_value_with_reader	include/cmdline.h	/^    option_with_value_with_reader(const std::string &name,$/;"	f	class:cmdline::parser::option_with_value_with_reader
+option_with_value_with_reader	include/cmdline.h	/^  class option_with_value_with_reader : public option_with_value<T> {$/;"	c	class:cmdline::parser
+option_without_value	include/cmdline.h	/^    option_without_value(const std::string &name,$/;"	f	class:cmdline::parser::option_without_value
+option_without_value	include/cmdline.h	/^  class option_without_value : public option_base {$/;"	c	class:cmdline::parser
+options	include/cmdline.h	/^  std::map<std::string, option_base*> options;$/;"	m	class:cmdline::parser	typeref:typename:std::map<std::string,option_base * >
+ordered	include/cmdline.h	/^  std::vector<option_base*> ordered;$/;"	m	class:cmdline::parser	typeref:typename:std::vector<option_base * >
+others	include/cmdline.h	/^  std::vector<std::string> others;$/;"	m	class:cmdline::parser	typeref:typename:std::vector<std::string>
+outputClsSize	include/TRTinfer.hpp	/^    int outputClsSize = 1;              \/\/!< The number of output classes$/;"	m	struct:trtinfer::TRTParams	typeref:typename:int
+outputImageName	include/TRTinfer.hpp	/^    std::string outputImageName;$/;"	m	struct:trtinfer::TRTParams	typeref:typename:std::string
+outputShapes	include/TRTinfer.hpp	/^    std::vector<std::vector<int>> outputShapes;$/;"	m	struct:trtinfer::TRTParams	typeref:typename:std::vector<std::vector<int>>
+outputTensorNames	include/TRTinfer.hpp	/^    std::vector<std::string> outputTensorNames;$/;"	m	struct:trtinfer::TRTParams	typeref:typename:std::vector<std::string>
+outputTensorNames	include/argsParser.h	/^    std::vector<std::string> outputTensorNames;$/;"	m	struct:TensorRTCommon::SampleParams	typeref:typename:std::vector<std::string>
+parse	include/cmdline.h	/^  bool parse(const std::string &arg){$/;"	f	class:cmdline::parser	typeref:typename:bool
+parse	include/cmdline.h	/^  bool parse(const std::vector<std::string> &args){$/;"	f	class:cmdline::parser	typeref:typename:bool
+parse	include/cmdline.h	/^  bool parse(int argc, const char * const argv[]){$/;"	f	class:cmdline::parser	typeref:typename:bool
+parseArgs	include/argsParser.h	/^inline bool parseArgs(Args& args, int32_t argc, char* argv[])$/;"	f	namespace:TensorRTCommon	typeref:typename:bool
+parseDLA	include/common.h	/^inline int parseDLA(int argc, char** argv)$/;"	f	namespace:TensorRTCommon	typeref:typename:int
+parse_check	include/cmdline.h	/^  void parse_check(const std::string &arg){$/;"	f	class:cmdline::parser	typeref:typename:void
+parse_check	include/cmdline.h	/^  void parse_check(const std::vector<std::string> &args){$/;"	f	class:cmdline::parser	typeref:typename:void
+parse_check	include/cmdline.h	/^  void parse_check(int argc, char *argv[]){$/;"	f	class:cmdline::parser	typeref:typename:void
+parser	include/cmdline.h	/^  parser(){$/;"	f	class:cmdline::parser
+parser	include/cmdline.h	/^class parser{$/;"	c	namespace:cmdline
+plus	include/half.h	/^    static expr plus(float x, float y)$/;"	f	struct:half_float::detail::functions	typeref:typename:expr
+postProcess	include/TRTinfer.hpp	/^    long long postProcess;$/;"	m	struct:trtinfer::SpeedInfo	typeref:typename:long long
+postProcess	src/Yolov5.cpp	/^bool Yolov5::postProcess(const TensorRTCommon::BufferManager& mbuffers)$/;"	f	class:Yolov5::Yolov5	typeref:typename:bool
+postProcess_cuda	include/TRTinfer.hpp	/^    virtual bool postProcess_cuda(const TensorRTCommon::BufferManager& mbuffers){$/;"	f	class:trtinfer::TRTInfer	typeref:typename:bool
+pow	include/half.h	/^    static expr pow(float base, float exp)$/;"	f	struct:half_float::detail::functions	typeref:typename:expr
+pow	include/half.h	/^inline expr pow(expr base, expr exp)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+pow	include/half.h	/^inline expr pow(expr base, half exp)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+pow	include/half.h	/^inline expr pow(half base, expr exp)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+pow	include/half.h	/^inline expr pow(half base, half exp)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+preProcess	include/TRTinfer.hpp	/^    long long preProcess;$/;"	m	struct:trtinfer::SpeedInfo	typeref:typename:long long
+preProcess	src/Yolov5.cpp	/^bool Yolov5::preProcess(const TensorRTCommon::BufferManager& mbuffers)$/;"	f	class:Yolov5::Yolov5	typeref:typename:bool
+print	include/buffers.h	/^    void print(std::ostream& os, void* buf, size_t bufSize, size_t rowCount)$/;"	f	class:TensorRTCommon::BufferManager	typeref:typename:void
+printTimeConsmued	include/TRTinfer.hpp	/^    void printTimeConsmued()$/;"	f	struct:trtinfer::SpeedInfo	typeref:typename:void
+print_version	include/common.h	/^inline void print_version()$/;"	f	namespace:TensorRTCommon	typeref:typename:void
+prob	include/TRTinfer.hpp	/^    float prob;$/;"	m	struct:trtinfer::DagcppBox	typeref:typename:float
+prog_name	include/cmdline.h	/^  std::string prog_name;$/;"	m	class:cmdline::parser	typeref:typename:std::string
+prototxtFileName	include/argsParser.h	/^    std::string prototxtFileName; \/\/!< Filename of prototxt design file of a network$/;"	m	struct:TensorRTCommon::CaffeSampleParams	typeref:typename:std::string
+putOutput	include/logging.h	/^    void putOutput()$/;"	f	class:Logging::LogStreamConsumerBuffer	typeref:typename:void
+pytorch模型训练	README.md	/^### pytorch模型训练$/;"	S
+quiet_NaN	include/half.h	/^    static HALF_CONSTEXPR half_float::half quiet_NaN() HALF_NOTHROW$/;"	f	class:std::numeric_limits	typeref:typename:HALF_CONSTEXPR half_float::half
+radix	include/half.h	/^    static HALF_CONSTEXPR_CONST int radix = 2;$/;"	m	class:std::numeric_limits	typeref:typename:HALF_CONSTEXPR_CONST int
+range	include/cmdline.h	/^range_reader<T> range(const T &low, const T &high)$/;"	f	namespace:cmdline	typeref:typename:range_reader<T>
+range_reader	include/cmdline.h	/^  range_reader(const T &low, const T &high): low(low), high(high) {}$/;"	f	struct:cmdline::range_reader
+range_reader	include/cmdline.h	/^struct range_reader{$/;"	s	namespace:cmdline
+raw	include/common.h	/^    ElemType* raw() noexcept$/;"	f	class:TensorRTCommon::TypedHostMemory	typeref:typename:ElemType *
+read	include/cmdline.h	/^    T read(const std::string &s){$/;"	f	class:cmdline::parser::option_with_value_with_reader	typeref:typename:T
+read	include/half.h	/^    static std::basic_istream<charT, traits>& read(std::basic_istream<charT, traits>& in, half& /;"	f	struct:half_float::detail::functions	typeref:typename:std::basic_istream<charT,traits> &
+readASCIIFile	include/common.h	/^bool readASCIIFile(const std::string& fileName, const size_t size, std::vector<T>& out)$/;"	f	namespace:TensorRTCommon	typeref:typename:bool
+readCalibrationCache	include/EntropyCalibrator.h	/^    const void* readCalibrationCache(size_t& length) override$/;"	f	class:Int8EntropyCalibrator2	typeref:typename:const void *
+readCalibrationCache	include/EntropyCalibrator.h	/^    const void* readCalibrationCache(size_t& length)$/;"	f	class:EntropyCalibratorImpl	typeref:typename:const void *
+readDataFile	include/BatchStream.h	/^    void readDataFile(const std::string& dataFilePath)$/;"	f	class:MNISTBatchStream	typeref:typename:void
+readLabelsFile	include/BatchStream.h	/^    void readLabelsFile(const std::string& labelsFilePath)$/;"	f	class:MNISTBatchStream	typeref:typename:void
+readPGMFile	include/common.h	/^inline void readPGMFile(const std::string& fileName, uint8_t* buffer, int inH, int inW)$/;"	f	typeref:typename:void
+readPPMFile	include/common.h	/^inline void readPPMFile(const std::string& filename, vPPM& ppm, std::vector<std::string>& input_/;"	f	namespace:TensorRTCommon	typeref:typename:void
+readPPMFile	include/common.h	/^void readPPMFile(const std::string& filename, TensorRTCommon::PPM<C, H, W>& ppm)$/;"	f	namespace:TensorRTCommon	typeref:typename:void
+readReferenceFile	include/common.h	/^inline bool readReferenceFile(const std::string& fileName, std::vector<std::string>& refVector)$/;"	f	namespace:TensorRTCommon	typeref:typename:bool
+readable_typename	include/cmdline.h	/^inline std::string readable_typename<std::string>()$/;"	f	namespace:cmdline::detail	typeref:typename:std::string
+readable_typename	include/cmdline.h	/^std::string readable_typename()$/;"	f	namespace:cmdline::detail	typeref:typename:std::string
+reader	include/cmdline.h	/^    F reader;$/;"	m	class:cmdline::parser::option_with_value_with_reader	typeref:typename:F
+remainder	include/half.h	/^    static expr remainder(float x, float y)$/;"	f	struct:half_float::detail::functions	typeref:typename:expr
+remainder	include/half.h	/^inline expr remainder(expr x, expr y)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+remainder	include/half.h	/^inline expr remainder(expr x, half y)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+remainder	include/half.h	/^inline expr remainder(half x, expr y)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+remainder	include/half.h	/^inline expr remainder(half x, half y)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+remquo	include/half.h	/^    static expr remquo(float x, float y, int* quo)$/;"	f	struct:half_float::detail::functions	typeref:typename:expr
+remquo	include/half.h	/^inline expr remquo(expr x, expr y, int* quo)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+remquo	include/half.h	/^inline expr remquo(expr x, half y, int* quo)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+remquo	include/half.h	/^inline expr remquo(half x, expr y, int* quo)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+remquo	include/half.h	/^inline expr remquo(half x, half y, int* quo)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+reportFail	include/logging.h	/^    static int reportFail(const TestAtom& testAtom)$/;"	f	class:Logging::Logger	typeref:typename:int
+reportLayerTime	include/common.h	/^    virtual void reportLayerTime(const char* layerName, float ms)$/;"	f	struct:SimpleProfiler	typeref:typename:void
+reportPass	include/logging.h	/^    static int reportPass(const TestAtom& testAtom)$/;"	f	class:Logging::Logger	typeref:typename:int
+reportTest	include/logging.h	/^    static int reportTest(const TestAtom& testAtom, bool pass)$/;"	f	class:Logging::Logger	typeref:typename:int
+reportTestEnd	include/logging.h	/^    static void reportTestEnd(const TestAtom& testAtom, TestResult result)$/;"	f	class:Logging::Logger	typeref:typename:void
+reportTestResult	include/logging.h	/^    static void reportTestResult(const TestAtom& testAtom, TestResult result)$/;"	f	class:Logging::Logger	typeref:typename:void
+reportTestStart	include/logging.h	/^    static void reportTestStart(TestAtom& testAtom)$/;"	f	class:Logging::Logger	typeref:typename:void
+reportWaive	include/logging.h	/^    static int reportWaive(const TestAtom& testAtom)$/;"	f	class:Logging::Logger	typeref:typename:int
+reset	include/BatchStream.h	/^    void reset(int firstBatch) override$/;"	f	class:BatchStream	typeref:typename:void
+reset	include/BatchStream.h	/^    void reset(int firstBatch) override$/;"	f	class:MNISTBatchStream	typeref:typename:void
+reset	include/common.h	/^    void reset() noexcept$/;"	f	class:TensorRTCommon::TimerBase	typeref:typename:void
+resetTime	include/TRTinfer.hpp	/^    bool resetTime()$/;"	f	class:trtinfer::TRTInfer	typeref:typename:bool
+resize	include/buffers.h	/^    void resize(const nvinfer1::Dims& dims)$/;"	f	class:TensorRTCommon::GenericBuffer	typeref:typename:void
+resize	include/buffers.h	/^    void resize(size_t newSize)$/;"	f	class:TensorRTCommon::GenericBuffer	typeref:typename:void
+rest	include/cmdline.h	/^  const std::vector<std::string> &rest() const {$/;"	f	class:cmdline::parser	typeref:typename:const std::vector<std::string> &
+result	include/half.h	/^struct result : enable<expr, T, U>$/;"	s	namespace:half_float::detail
+result	include/half.h	/^struct result<half, half>$/;"	s	namespace:half_float::detail
+result_type	include/half.h	/^    typedef size_t result_type;$/;"	t	struct:std::hash	typeref:typename:size_t
+rint	include/half.h	/^    static half rint(half arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:half
+rint	include/half.h	/^inline half rint(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:half
+rint	include/half.h	/^inline half rint(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:half
+round	include/half.h	/^    static half round(half arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:half
+round	include/half.h	/^inline half round(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:half
+round	include/half.h	/^inline half round(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:half
+roundUp	include/common.h	/^inline int roundUp(int m, int n)$/;"	f	namespace:TensorRTCommon	typeref:typename:int
+round_error	include/half.h	/^    static HALF_CONSTEXPR half_float::half round_error() HALF_NOTHROW$/;"	f	class:std::numeric_limits	typeref:typename:HALF_CONSTEXPR half_float::half
+round_half	include/half.h	/^uint16 round_half(uint16 value)$/;"	f	namespace:half_float::detail	typeref:typename:uint16
+round_half_impl	include/half.h	/^uint16 round_half_impl(uint16 value)$/;"	f	namespace:half_float::detail	typeref:typename:uint16
+round_half_up	include/half.h	/^inline uint16 round_half_up(uint16 value)$/;"	f	namespace:half_float::detail	typeref:typename:uint16
+round_style	include/half.h	/^    static HALF_CONSTEXPR_CONST float_round_style round_style$/;"	m	class:std::numeric_limits	typeref:typename:HALF_CONSTEXPR_CONST float_round_style
+round_style	include/half.h	/^    static const std::float_round_style round_style = (std::float_round_style)(HALF_ROUND_STYLE)/;"	m	class:half_float::half	typeref:typename:const std::float_round_style
+runInFp16	include/argsParser.h	/^    bool runInFp16{false};$/;"	m	struct:TensorRTCommon::Args	typeref:typename:bool
+runInInt8	include/argsParser.h	/^    bool runInInt8{false};$/;"	m	struct:TensorRTCommon::Args	typeref:typename:bool
+safeCudaMalloc	include/common.h	/^inline void* safeCudaMalloc(size_t memSize)$/;"	f	namespace:TensorRTCommon	typeref:typename:void *
+saveEngine	include/argsParser.h	/^    std::string saveEngine;$/;"	m	struct:TensorRTCommon::Args	typeref:typename:std::string
+scalbln	include/half.h	/^    static half scalbln(half arg, long exp)$/;"	f	struct:half_float::detail::functions	typeref:typename:half
+scalbln	include/half.h	/^inline half scalbln(expr arg, long exp)$/;"	f	namespace:half_float::detail	typeref:typename:half
+scalbln	include/half.h	/^inline half scalbln(half arg, long exp)$/;"	f	namespace:half_float::detail	typeref:typename:half
+scalbn	include/half.h	/^inline half scalbn(expr arg, int exp)$/;"	f	namespace:half_float::detail	typeref:typename:half
+scalbn	include/half.h	/^inline half scalbn(half arg, int exp)$/;"	f	namespace:half_float::detail	typeref:typename:half
+score	include/TRTinfer.hpp	/^    float score;$/;"	m	struct:trtinfer::BoundingBox	typeref:typename:float
+seconds	include/common.h	/^    float seconds() const noexcept$/;"	f	class:TensorRTCommon::TimerBase	typeref:typename:float
+set	include/cmdline.h	/^    bool set(){$/;"	f	class:cmdline::parser::option_with_value	typeref:typename:bool
+set	include/cmdline.h	/^    bool set(){$/;"	f	class:cmdline::parser::option_without_value	typeref:typename:bool
+set	include/cmdline.h	/^    bool set(const std::string &){$/;"	f	class:cmdline::parser::option_without_value	typeref:typename:bool
+set	include/cmdline.h	/^    bool set(const std::string &value){$/;"	f	class:cmdline::parser::option_with_value	typeref:typename:bool
+setAllTensorScales	include/common.h	/^inline void setAllTensorScales(INetworkDefinition* network, float inScales = 2.0f, float outScal/;"	f	namespace:TensorRTCommon	typeref:typename:void
+setDummyInt8Scales	include/common.h	/^inline void setDummyInt8Scales(const IBuilderConfig* c, INetworkDefinition* n)$/;"	f	namespace:TensorRTCommon	typeref:typename:void
+setReportableSeverity	include/logging.h	/^    void setReportableSeverity(Severity reportableSeverity)$/;"	f	class:Logging::LogStreamConsumer	typeref:typename:void
+setReportableSeverity	include/logging.h	/^    void setReportableSeverity(Severity severity)$/;"	f	class:Logging::Logger	typeref:typename:void
+setReportableSeverity	src/logger.cpp	/^void setReportableSeverity(Logger::Severity severity)$/;"	f	namespace:Logging	typeref:typename:void
+setShouldLog	include/logging.h	/^    void setShouldLog(bool shouldLog)$/;"	f	class:Logging::LogStreamConsumerBuffer	typeref:typename:void
+set_option	include/cmdline.h	/^  void set_option(const std::string &name){$/;"	f	class:cmdline::parser	typeref:typename:void
+set_option	include/cmdline.h	/^  void set_option(const std::string &name, const std::string &value){$/;"	f	class:cmdline::parser	typeref:typename:void
+set_program_name	include/cmdline.h	/^  void set_program_name(const std::string &name){$/;"	f	class:cmdline::parser	typeref:typename:void
+severityOstream	include/logging.h	/^    static std::ostream& severityOstream(Severity severity)$/;"	f	class:Logging::LogStreamConsumer	typeref:typename:std::ostream &
+severityOstream	include/logging.h	/^    static std::ostream& severityOstream(Severity severity)$/;"	f	class:Logging::Logger	typeref:typename:std::ostream &
+severityPrefix	include/logging.h	/^    static const char* severityPrefix(Severity severity)$/;"	f	class:Logging::Logger	typeref:typename:const char *
+severityPrefix	include/logging.h	/^    static std::string severityPrefix(Severity severity)$/;"	f	class:Logging::LogStreamConsumer	typeref:typename:std::string
+short_description	include/cmdline.h	/^    std::string short_description() const{$/;"	f	class:cmdline::parser::option_with_value	typeref:typename:std::string
+short_description	include/cmdline.h	/^    std::string short_description() const{$/;"	f	class:cmdline::parser::option_without_value	typeref:typename:std::string
+short_name	include/cmdline.h	/^    char short_name() const{$/;"	f	class:cmdline::parser::option_with_value	typeref:typename:char
+short_name	include/cmdline.h	/^    char short_name() const{$/;"	f	class:cmdline::parser::option_without_value	typeref:typename:char
+signaling_NaN	include/half.h	/^    static HALF_CONSTEXPR half_float::half signaling_NaN() HALF_NOTHROW$/;"	f	class:std::numeric_limits	typeref:typename:HALF_CONSTEXPR half_float::half
+signbit	include/half.h	/^    static bool signbit(half arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:bool
+signbit	include/half.h	/^inline bool signbit(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:bool
+signbit	include/half.h	/^inline bool signbit(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:bool
+sin	include/half.h	/^    static expr sin(float arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:expr
+sin	include/half.h	/^inline expr sin(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+sin	include/half.h	/^inline expr sin(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+sinh	include/half.h	/^    static expr sinh(float arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:expr
+sinh	include/half.h	/^inline expr sinh(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+sinh	include/half.h	/^inline expr sinh(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+size	include/buffers.h	/^    size_t size() const$/;"	f	class:TensorRTCommon::GenericBuffer	typeref:typename:size_t
+size	include/buffers.h	/^    size_t size(const std::string& tensorName) const$/;"	f	class:TensorRTCommon::BufferManager	typeref:typename:size_t
+size	include/common.h	/^    std::size_t size() const noexcept override$/;"	f	class:TensorRTCommon::HostMemory	typeref:typename:std::size_t
+skip	include/BatchStream.h	/^    void skip(int skipCount) override$/;"	f	class:BatchStream	typeref:typename:void
+skip	include/BatchStream.h	/^    void skip(int skipCount) override$/;"	f	class:MNISTBatchStream	typeref:typename:void
+snam	include/cmdline.h	/^    char snam;$/;"	m	class:cmdline::parser::option_with_value	typeref:typename:char
+snam	include/cmdline.h	/^    char snam;$/;"	m	class:cmdline::parser::option_without_value	typeref:typename:char
+specifyInputAndOutputNamesAndShapesYolov5	yolov5_trt.cpp	/^trtinfer::TRTParams specifyInputAndOutputNamesAndShapesYolov5(trtinfer::TRTParams &params, YAML:/;"	f	typeref:typename:trtinfer::TRTParams
+splitString	include/common.h	/^inline std::vector<std::string> splitString(std::string str, char delimiter = ',')$/;"	f	namespace:TensorRTCommon	typeref:typename:std::vector<std::string>
+sqrt	include/half.h	/^    static expr sqrt(float arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:expr
+sqrt	include/half.h	/^inline expr sqrt(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+sqrt	include/half.h	/^inline expr sqrt(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+start	include/common.h	/^    virtual void start() {}$/;"	f	class:TensorRTCommon::TimerBase	typeref:typename:void
+start	include/common.h	/^    void start()$/;"	f	class:TensorRTCommon::CpuTimer	typeref:typename:void
+start	include/common.h	/^    void start()$/;"	f	class:TensorRTCommon::GpuTimer	typeref:typename:void
+std	include/half.h	/^namespace std$/;"	n
+stop	include/common.h	/^    virtual void stop() {}$/;"	f	class:TensorRTCommon::TimerBase	typeref:typename:void
+stop	include/common.h	/^    void stop()$/;"	f	class:TensorRTCommon::CpuTimer	typeref:typename:void
+stop	include/common.h	/^    void stop()$/;"	f	class:TensorRTCommon::GpuTimer	typeref:typename:void
+swapEndianness	include/common.h	/^inline T swapEndianness(const T& value)$/;"	f	namespace:TensorRTCommon	typeref:typename:T
+sync	include/logging.h	/^    virtual int sync()$/;"	f	class:Logging::LogStreamConsumerBuffer	typeref:typename:int
+tan	include/half.h	/^    static expr tan(float arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:expr
+tan	include/half.h	/^inline expr tan(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+tan	include/half.h	/^inline expr tan(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+tanh	include/half.h	/^    static expr tanh(float arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:expr
+tanh	include/half.h	/^inline expr tanh(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+tanh	include/half.h	/^inline expr tanh(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+testResultString	include/logging.h	/^    static const char* testResultString(TestResult result)$/;"	f	class:Logging::Logger	typeref:typename:const char *
+tgamma	include/half.h	/^    static expr tgamma(float arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:expr
+tgamma	include/half.h	/^inline expr tgamma(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+tgamma	include/half.h	/^inline expr tgamma(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:expr
+time	include/common.h	/^        float time{0};$/;"	m	struct:SimpleProfiler::Record	typeref:typename:float
+toLower	include/common.h	/^inline std::string toLower(const std::string& inp)$/;"	f	namespace:TensorRTCommon	typeref:typename:std::string
+topK	include/TRTinfer.hpp	/^    int topK = 512;$/;"	m	struct:trtinfer::TRTParams	typeref:typename:int
+topKMagnitudes	include/common.h	/^std::vector<size_t> topKMagnitudes(const std::vector<T>& v, const size_t k)$/;"	f	namespace:TensorRTCommon	typeref:typename:std::vector<size_t>
+trtinfer	include/TRTinfer.hpp	/^namespace trtinfer{$/;"	n
+trunc	include/half.h	/^    static half trunc(half arg)$/;"	f	struct:half_float::detail::functions	typeref:typename:half
+trunc	include/half.h	/^inline half trunc(expr arg)$/;"	f	namespace:half_float::detail	typeref:typename:half
+trunc	include/half.h	/^inline half trunc(half arg)$/;"	f	namespace:half_float::detail	typeref:typename:half
+type	include/common.h	/^    DataType type() const noexcept override$/;"	f	class:TensorRTCommon::HostMemory	typeref:typename:DataType
+type	include/half.h	/^    typedef T type;$/;"	t	struct:half_float::detail::enable	typeref:typename:T
+type	include/half.h	/^    typedef half type;$/;"	t	struct:half_float::detail::result	typeref:typename:half
+type	include/half.h	/^    typedef std::uint_least32_t type;$/;"	t	struct:half_float::detail::bits	typeref:typename:std::uint_least32_t
+type	include/half.h	/^    typedef std::uint_least64_t type;$/;"	t	struct:half_float::detail::bits	typeref:typename:std::uint_least64_t
+type	include/half.h	/^    typedef unsigned char type;$/;"	t	struct:half_float::detail::bits	typeref:typename:unsigned char
+type	include/half.h	/^    typedef unsigned long type;$/;"	t	struct:half_float::detail::bits	typeref:typename:unsigned long
+uffFileName	include/argsParser.h	/^    std::string uffFileName; \/\/!< Filename of uff file of a network$/;"	m	struct:TensorRTCommon::UffSampleParams	typeref:typename:std::string
+uint16	include/half.h	/^typedef std::uint_least16_t uint16;$/;"	t	namespace:half_float::detail	typeref:typename:std::uint_least16_t
+uint16	include/half.h	/^typedef unsigned short uint16;$/;"	t	namespace:half_float::detail	typeref:typename:unsigned short
+uint32	include/half.h	/^    typedef bits<float>::type uint32;$/;"	t	function:half_float::detail::float2half_impl	typeref:typename:bits<float>::type
+uint32	include/half.h	/^    typedef bits<float>::type uint32;$/;"	t	function:half_float::detail::half2float_impl	typeref:typename:bits<float>::type
+uint64	include/half.h	/^    typedef bits<double>::type uint64;$/;"	t	function:half_float::detail::float2half_impl	typeref:typename:bits<double>::type
+uint64	include/half.h	/^    typedef bits<double>::type uint64;$/;"	t	function:half_float::detail::half2float_impl	typeref:typename:bits<double>::type
+unary_specialized	include/half.h	/^struct unary_specialized$/;"	s	namespace:half_float::detail
+unary_specialized	include/half.h	/^struct unary_specialized<expr>$/;"	s	namespace:half_float::detail
+update	include/BatchStream.h	/^    bool update()$/;"	f	class:BatchStream	typeref:typename:bool
+usage	include/cmdline.h	/^  std::string usage() const {$/;"	f	class:cmdline::parser	typeref:typename:std::string
+useDLACore	include/argsParser.h	/^    int32_t useDLACore{-1};$/;"	m	struct:TensorRTCommon::Args	typeref:typename:int32_t
+useILoop	include/argsParser.h	/^    bool useILoop{false};$/;"	m	struct:TensorRTCommon::Args	typeref:typename:bool
+vPPM	include/common.h	/^struct vPPM$/;"	s	namespace:TensorRTCommon
+valid	include/cmdline.h	/^    bool valid() const{$/;"	f	class:cmdline::parser::option_with_value	typeref:typename:bool
+valid	include/cmdline.h	/^    bool valid() const{$/;"	f	class:cmdline::parser::option_without_value	typeref:typename:bool
+value	include/cmdline.h	/^  static const bool value = false;$/;"	m	struct:cmdline::detail::is_same	typeref:typename:const bool
+value	include/cmdline.h	/^  static const bool value = true;$/;"	m	struct:cmdline::detail::is_same	typeref:typename:const bool
+value_	include/half.h	/^    float value_;$/;"	m	struct:half_float::detail::expr	typeref:typename:float
+volume	include/common.h	/^inline int64_t volume(const nvinfer1::Dims& d)$/;"	f	namespace:TensorRTCommon	typeref:typename:int64_t
+w	include/TRTinfer.hpp	/^    float x, y, w, h;$/;"	m	struct:trtinfer::DagcppBox	typeref:typename:float
+w	include/common.h	/^    int h, w, max;$/;"	m	struct:TensorRTCommon::PPM	typeref:typename:int
+w	include/common.h	/^    int h, w, max;$/;"	m	struct:TensorRTCommon::vPPM	typeref:typename:int
+weightsFileName	include/argsParser.h	/^    std::string weightsFileName;  \/\/!< Filename of trained weights file of a network$/;"	m	struct:TensorRTCommon::CaffeSampleParams	typeref:typename:std::string
+what	include/cmdline.h	/^  const char *what() const throw() { return msg.c_str(); }$/;"	f	class:cmdline::cmdline_error	typeref:typename:const char *
+workspace	include/TRTinfer.hpp	/^    int workspace = 2048;$/;"	m	struct:trtinfer::TRTParams	typeref:typename:int
+write	include/half.h	/^    static std::basic_ostream<charT, traits>& write(std::basic_ostream<charT, traits>& out, floa/;"	f	struct:half_float::detail::functions	typeref:typename:std::basic_ostream<charT,traits> &
+writeASCIIFile	include/common.h	/^bool writeASCIIFile(const std::string& fileName, const std::vector<T>& in)$/;"	f	namespace:TensorRTCommon	typeref:typename:bool
+writeCalibrationCache	include/EntropyCalibrator.h	/^    void writeCalibrationCache(const void* cache, size_t length) override$/;"	f	class:Int8EntropyCalibrator2	typeref:typename:void
+writeCalibrationCache	include/EntropyCalibrator.h	/^    void writeCalibrationCache(const void* cache, size_t length)$/;"	f	class:EntropyCalibratorImpl	typeref:typename:void
+writePPMFileWithBBox	include/common.h	/^inline void writePPMFileWithBBox(const std::string& filename, vPPM ppm, std::vector<BBox>& dets)$/;"	f	namespace:TensorRTCommon	typeref:typename:void
+writePPMFileWithBBox	include/common.h	/^void writePPMFileWithBBox(const std::string& filename, PPM<C, H, W>& ppm, const BBox& bbox)$/;"	f	namespace:TensorRTCommon	typeref:typename:void
+x	include/TRTinfer.hpp	/^    float x, y, w, h;$/;"	m	struct:trtinfer::DagcppBox	typeref:typename:float
+x1	include/TRTinfer.hpp	/^    float x1;$/;"	m	struct:trtinfer::BoundingBox	typeref:typename:float
+x1	include/common.h	/^    float x1, y1, x2, y2;$/;"	m	struct:TensorRTCommon::BBox	typeref:typename:float
+x2	include/TRTinfer.hpp	/^    float x2;$/;"	m	struct:trtinfer::BoundingBox	typeref:typename:float
+x2	include/common.h	/^    float x1, y1, x2, y2;$/;"	m	struct:TensorRTCommon::BBox	typeref:typename:float
+y	include/TRTinfer.hpp	/^    float x, y, w, h;$/;"	m	struct:trtinfer::DagcppBox	typeref:typename:float
+y1	include/TRTinfer.hpp	/^    float y1;$/;"	m	struct:trtinfer::BoundingBox	typeref:typename:float
+y1	include/common.h	/^    float x1, y1, x2, y2;$/;"	m	struct:TensorRTCommon::BBox	typeref:typename:float
+y2	include/TRTinfer.hpp	/^    float y2;$/;"	m	struct:trtinfer::BoundingBox	typeref:typename:float
+y2	include/common.h	/^    float x1, y1, x2, y2;$/;"	m	struct:TensorRTCommon::BBox	typeref:typename:float
+yolov5_trt	CMakeLists.txt	/^project(yolov5_trt)$/;"	p
+~EntropyCalibratorImpl	include/EntropyCalibrator.h	/^    virtual ~EntropyCalibratorImpl()$/;"	f	class:EntropyCalibratorImpl
+~GenericBuffer	include/buffers.h	/^    ~GenericBuffer()$/;"	f	class:TensorRTCommon::GenericBuffer
+~GpuTimer	include/common.h	/^    ~GpuTimer()$/;"	f	class:TensorRTCommon::GpuTimer
+~LogStreamConsumerBuffer	include/logging.h	/^    ~LogStreamConsumerBuffer()$/;"	f	class:Logging::LogStreamConsumerBuffer
+~TRTInfer	include/TRTinfer.hpp	/^    ~TRTInfer(){}$/;"	f	class:trtinfer::TRTInfer
+~Yolov5	include/Yolov5.hpp	/^    ~Yolov5(){};$/;"	f	class:Yolov5::Yolov5
+~cmdline_error	include/cmdline.h	/^  ~cmdline_error() throw() {}$/;"	f	class:cmdline::cmdline_error
+~option_base	include/cmdline.h	/^    virtual ~option_base(){}$/;"	f	class:cmdline::parser::option_base
+~option_with_value	include/cmdline.h	/^    ~option_with_value(){}$/;"	f	class:cmdline::parser::option_with_value
+~option_without_value	include/cmdline.h	/^    ~option_without_value(){}$/;"	f	class:cmdline::parser::option_without_value
+~parser	include/cmdline.h	/^  ~parser(){$/;"	f	class:cmdline::parser
+环境准备	README.md	/^### 环境准备$/;"	S
+编译C++代码	README.md	/^#### 编译C++代码$/;"	t	subsection:onnx->TensorRT & TensorRT inference
+自定义yaml配置文件	README.md	/^#### 自定义yaml配置文件$/;"	t	subsection:onnx->TensorRT & TensorRT inference
+运行代码	README.md	/^#### 运行代码$/;"	t	subsection:onnx->TensorRT & TensorRT inference
